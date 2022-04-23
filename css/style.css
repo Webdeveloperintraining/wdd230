@@ -1,15 +1,22 @@
 header {
     display:grid;
-    column-gap: 50px;
+    height:250px;
     background-color:purple;
-    text-align:center;
+    grid-gap:20px;
+    grid-template-columns:250px 1fr;
 }
+
 img {
-    grid-column:1/2;
+    grid-column-start:1;
+    grid-column-end:2;
+    padding:20px;
+    width:250px;
 }
 
 h1{
-    grid-column:2/5;
+    grid-column-start:2;
+    grid-column-end:3;
+    margin:auto;   
 }
 
 main{
@@ -17,6 +24,12 @@ main{
 }
 
 footer {
+    display:grid;
     background-color:purple;
     text-align:center;
+    height:100px;
+}
+
+p {
+    margin:auto;
 }
