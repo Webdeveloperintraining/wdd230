@@ -2,16 +2,21 @@ header {
     display:grid;
     column-gap: 50px;
     background-color:purple;
+    text-align:center;
+}
+img {
+    grid-column:1/2;
 }
 
-img {
-    display:block;
-    margin-left: auto;
-    margin-right: auto;
-    width:50px;
-    align-items:center;
+h1{
+    grid-column:2/5;
 }
 
 main{
     background-color:#f5e1fd;
+}
+
+footer {
+    background-color:purple;
+    text-align:center;
 }
