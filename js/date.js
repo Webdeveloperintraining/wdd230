@@ -1,5 +1,4 @@
-const lastest_year = new Date();
-document.queryselector('.year').innerHTML=years.getFullYear()
+const year = new Date();
+document.querySelector('#year').innerHTML = years.getFullYear()
 
-const lastest_date = new Date(document.lastmodified);
-document.queryselector('.date').innerHTML=lastest_date;
+document.getElementById('date').innerHTML=new Date(document.lastmodified);
