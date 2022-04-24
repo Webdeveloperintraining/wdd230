@@ -1,3 +1,11 @@
+h1,h2 {
+    font-family:'Helvetica',sans-serif;
+}
+
+p,li{
+    font-family:'verdana',serif;
+}
+
 header {
     display:grid;
     height:250px;
@@ -16,11 +24,16 @@ img {
 h1{
     grid-column-start:2;
     grid-column-end:3;
+    color:white;
     margin:auto;   
 }
 
 main{
     background-color:#f5e1fd;  
+}
+
+h2{
+    padding:20px;
 }
 
 ul{
@@ -37,4 +50,6 @@ footer {
 
 p {
     margin:auto;
+    color:white;
+    
 }
