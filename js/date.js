@@ -1,1 +1,2 @@
-document.getElementById('date').innerHTML=new Date(document.lastmodified);
+let date = document.lastModified;
+document.getElementById("date").innerHTML = date;
