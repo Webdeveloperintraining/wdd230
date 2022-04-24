@@ -31,6 +31,12 @@
         <p>©<span class="year"> </span>  \ o / Irvin J. Silva  \ o /   Tijuana, Mex</p>
         <p>Last Updated <span class="date"> </span></p>
     </footer>
-    <script src="./js/date.js"></script>
+    <script >
+        const lastest_year = new Date();
+        document.queryselector('.year').innerHTML=years.getFullYear()
+
+        const lastest_date = new Date(document.lastmodified);
+        document.queryselector('.date').innerHTML=lastest_date;
+    </script>
 </body>
 </html>
