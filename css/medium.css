@@ -1,0 +1,19 @@
+@media (min-width: 32.5em) {
+h1 {
+    font-size:2em;
+    padding:none; 
+}
+h2 {
+    text-align:center;
+}
+
+img{
+    width:200px;
+    margin:auto;
+}
+
+ul {
+    justify-items:center;
+}
+
+}
