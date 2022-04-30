@@ -1,6 +1,5 @@
-main{
-    display:grid;
-    grid-template-columns:1fr 1fr 1fr ;
+body {
+    background-color:orange;
 }
 
 h1,h2,h3,h4 {
@@ -9,4 +8,24 @@ h1,h2,h3,h4 {
 
 p{
     font-family: 'Libre Franklin', sans-serif;
+}
+
+header{
+    display:grid;
+    background-color:yellow;
+    gap:20px;
+} 
+
+h1,h2{
+    text-align:center;
+    margin:auto;
+    }
+
+main{
+    display:grid;
+}
+
+img {
+    max-width:80%;
+    margin:auto;
 }
