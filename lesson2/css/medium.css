@@ -1,5 +1,5 @@
-@media (min-width: 32.5em) {
+@media (min-width: 37.5em) {
     main,header,footer {
-        max-width:700px
+        font-style: italics;
     }
 }    
