@@ -1,5 +1,21 @@
 body {
-    background-color:orange;
+    background-color:rgb(218, 240, 238);
+    margin:auto;
+}
+
+.gridarea{
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-gap: 7px;
+	grid-template-areas:
+    "header"
+	"section"
+	"footer";
+}
+
+header,footer {
+	border: 20px solid #333;
+	box-shadow: 0 0 10px #000;
 }
 
 h1,h2,h3,h4 {
@@ -8,11 +24,12 @@ h1,h2,h3,h4 {
 
 p{
     font-family: 'Libre Franklin', sans-serif;
+    /*font-size: 16px;*/
 }
 
 header{
     display:grid;
-    background-color:yellow;
+    background-color:rgb(157, 181, 178);
     gap:20px;
 } 
 
@@ -28,4 +45,9 @@ main{
 img {
     max-width:80%;
     margin:auto;
+}
+
+footer {
+    background-color:rgb(157, 181, 178);
+    text-align: center;
 }
