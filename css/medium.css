@@ -6,7 +6,7 @@ main,header,footer {
 
 h1 {
     font-size:4em; 
-    padding:none; 
+    padding:20px; 
 }
 h2 {
     font-size:3em;
