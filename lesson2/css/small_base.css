@@ -6,6 +6,8 @@ body {
 header,footer {
 	border: 1px solid rgb(10, 10, 10);
 	box-shadow: 0 0 10px #000;
+    /*background-color:rgb(157, 181, 178);*/
+    background-color:rgb(36, 51, 49);
     margin: .5rem ;
     color:white;
 }
@@ -30,13 +32,13 @@ h1,h2,h3,h4 {
 
 header{
     display:grid;
-    background-color:rgb(157, 181, 178);
     gap:20px;
 } 
 
 h1,h2{
     text-align:center;
     margin:auto;
+    margin-top:1em;
     }
 
 main{
@@ -57,10 +59,6 @@ img {
     width: 300px;
     margin: auto;
     display: block;
-}
-
-footer {
-    background-color:rgb(157, 181, 178);
 }
 
 #footer-text {

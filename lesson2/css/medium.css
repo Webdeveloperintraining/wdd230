@@ -1,5 +1,18 @@
-@media (min-width: 37.5em) {
-    main,header,footer {
-        font-style: italics;
-    }
+@media only screen and (min-width: 37.5em) {
+main {
+    grid-template-columns: 1fr 1fr;
+}
+
+main section:nth-child(2) {
+    display: block;
+}
+
+main section:nth-child(3) {
+    grid-column: span 2;
+}
+
+.apple{
+    width:300px;
+}
+
 }    
