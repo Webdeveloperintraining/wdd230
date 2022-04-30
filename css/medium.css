@@ -1,19 +1,19 @@
 @media (min-width: 32.5em) {
 h1 {
-    font-size:2em;
+    font-size:3em; 
     padding:none; 
 }
 h2 {
-    text-align:center;
+    font-size:2em;
 }
 
 img{
-    width:200px;
-    margin:auto;
+    width:250px;
+    padding:20px;
 }
 
 ul {
-    justify-items:center;
+    justify-items:none;
 }
 
 }
