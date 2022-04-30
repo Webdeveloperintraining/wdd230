@@ -5,12 +5,11 @@ main,header,footer {
 }
 
 h1 {
-    font-size:4em; 
+    font-size:3em; 
     padding:20px; 
 }
 h2 {
-    font-size:3em;
-    padding:20px;
+    font-size:2em;
 }
 
 img{
