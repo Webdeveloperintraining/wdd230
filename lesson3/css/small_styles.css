@@ -1,0 +1,46 @@
+h1,h2 {
+    font-family:'Archivo', sans-serif;
+}
+
+p{
+    font-family: 'Roboto', sans-serif;
+}
+
+img {
+    width:20em;
+}
+
+
+
+nav {
+	background-color: #36454f;
+	text-align: center;
+	box-shadow: 0 0 30px #333;
+    margin: 0 auto;
+    height:4em;
+	align-items:center
+}
+
+nav {
+	display: flex;
+	flex-direction:row;
+}
+
+
+nav div {
+	flex: 1 1 auto;
+}
+
+nav a {
+	display: block;
+	color: #fff;
+	text-align: center;
+	padding: 15px;
+	text-decoration: none;
+	font-size: 0.9rem;
+}
+
+nav a:hover {
+	background-color: #708080;
+	color: yellow;
+}
