@@ -1,0 +1,13 @@
+@media only screen and (min-width: 70rem ){
+	nav a {
+		font-size: 1.3rem;
+	}
+
+	p {
+		font-size: 1.3rem;
+	}
+
+	img {
+		width:35%;
+	}
+}
