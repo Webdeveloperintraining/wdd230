@@ -1,4 +1,4 @@
-h1,h2 {
+h1,h2,h3,h4 {
     font-family:'Archivo', sans-serif;
 }
 
@@ -7,10 +7,8 @@ p{
 }
 
 img {
-    width:20em;
+    width:60%;
 }
-
-
 
 nav {
 	background-color: #36454f;
@@ -43,4 +41,5 @@ nav a {
 nav a:hover {
 	background-color: #708080;
 	color: yellow;
+
 }
