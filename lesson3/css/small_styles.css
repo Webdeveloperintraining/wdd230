@@ -1,9 +1,14 @@
+main {
+	padding:20px;
+}
 h1,h2,h3,h4 {
     font-family:'Archivo', sans-serif;
+	color:#2C3546;
 }
 
 p,a{
     font-family: 'Roboto', sans-serif;
+	color:#2C3546;
 }
 
 img {
@@ -43,3 +48,4 @@ nav a:hover {
 	color: #2C3546;
 
 }
+
