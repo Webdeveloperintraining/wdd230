@@ -7,44 +7,44 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Archivo:wght@500&family=Roboto&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="../chamber/css/small_size.css">
-    <!--<link rel="stylesheet" href="../chamber/css/medium_size.css">-->
-    <!--<link rel="stylesheet" href="../chamber/css/large_size.css">-->
+    <link rel="stylesheet" href="../chamber/css/base.css">
+    <link rel="stylesheet" href="../chamber/css/medium.css">
+    <link rel="stylesheet" href="../chamber/css/large.css">
     <title>Chamber Home Page Build</title>
 </head>
 <body>
     <header>
             <a href="../chamber/index.html"><img id="head-logo" src="./images/white_logo.png" alt="Logo of Rivers Commerce chamber"></a>
             <p>Rivers Commerce Chamber</p>
-    </Header>
-    <nav>
-        <ul>
-            <li><a href="../chamber/index.html">Home</a></li>
-            <li><a href="../chamber/discover.html">Discover</a></li>
-            <li><a href="../chamber/directory.html">Directory</a></li>
-            <li><a href="../chamber/join.html">Join</a></li>
-            <li><a href="../chamber/contact.html">Contact</a></li>
-        </ul>
-        <img id="facebook" src="./images/facebook_icon.png" alt="This a Facebook logo">
-        <img id="linkedin" src="./images/linkedin_icon.png" alt="This a LinkedIn logo">
-        <button id="hamburguerBtn"><span>&#9776;</span><span>X</span></button>
-        <p><span id="current-date"></span></p>
-    </nav>
+            <a href="https://www.facebook.com/"><img id="facebook" src="./images/facebook_icon.png" alt="This a Facebook logo"></a>
+            <a href="https://www.linkedin.com/"><img id="linkedin" src="./images/linkedin_icon.png" alt="This a LinkedIn logo"></a>
+            <nav>
+                <button id="hamburguerBtn"><span>&#9776;</span><span>X</span></button>
+                <ul id="primary-nav">
+                    <li><a href="../chamber/index.html">Home</a></li>
+                    <li><a href="../chamber/discover.html">Discover</a></li>
+                    <li><a href="../chamber/directory.html">Directory</a></li>
+                    <li><a href="../chamber/join.html">Join</a></li>
+                    <li><a href="../chamber/contact.html">Contact</a></li>
+                </ul>
+            </nav>
+        </Header>
+    
     <main>
-
+        <p><span id="formatted-date"></span></p>
+        
     </main>
     <footer>
         <img id="foot-logo" src="./images/white_logo.png" alt="Logo of Rivers Commerce chamber">
-        <p>Rivers Commerce Chamber</p>
+        <h3>Rivers Commerce Chamber</h3>
         <p id="address">Zona Río, 22010<br>Tijuana, Baja California</p>
         <p id="email">info@riverschamber.org</p>
         <p id="phone">Phone:+52 664 879 123</p>
-        <p><a href="https://www.google.com/maps/place/Zona+R%C3%ADo,+22010+Tijuana,+Baja+California/@32.5297362,-117.0554676,13z/data=!3m1!4b1!4m5!3m4!1s0x80d9485a82ce42b3:0xc7b29cc12debea5e!8m2!3d32.5309387!4d-117.0176165">Location Map</a></p>
+        <p><a href="https://www.google.com/maps/place/Zona+R%C3%ADo,+22010+Tijuana,+Baja+California/@32.5297362,-117.0554676,13z/data=!3m1!4b1!4m5!3m4!1s0x80d9485a82ce42b3:0xc7b29cc12debea5e!8m2!3d32.5309387!4d-117.0176165">🗺️ Location Map 🗺️</a></p>
         <div id="line"></div>
-        <p> Rivers Commerce |<b> Irvin Silva</b> | WDD 230 Project| <span id="full-date"></span></p>
+        <p>©<span id="year"></span> Rivers Commerce |<b> Irvin Silva</b> | WDD 230 Project| <span id="full-date"></span></p>
     </footer>
-    <script src=""></script>
-    <script src=""></script>
-    <script src="./js/date.js"></script>
+    <script src="./js/dates.js"></script>
+    <script src="./js/hamburguer.js"></script>
 </body>
 </html>
