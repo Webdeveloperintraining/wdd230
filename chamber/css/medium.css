@@ -1,4 +1,42 @@
 @media only screen and (min-width: 35rem) {
+    header {
+        padding:20px;
+    }
+
+    header h1,h2,h3,h4,h5,p {
+        font-size: 1.6rem;
+    }
+    
+    #head-logo {
+        width:6rem;
+    }
+    
+    header button{
+        width:3rem;
+        height:3rem;
+        margin-top:1rem;
+    }
+    
+    #facebook, #linkedin{
+        width: 2rem;
+        margin-top:1.5rem;
+    }
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
     main {
         text-align: center;
         grid-template-columns: repeat(2, 25%);
