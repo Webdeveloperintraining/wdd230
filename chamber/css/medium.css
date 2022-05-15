@@ -1,8 +1,7 @@
 @media only screen and (min-width: 35rem) {
-    header h1,h2,h3,h4,h5,p {
-        font-size: 1.6rem;
+    body {
+        font-size: 1.4em;
     }
-    
     #head-logo {
         width:6rem;
     }
@@ -53,4 +52,45 @@
         gap:5px;
     }
     
+    #footer-flex {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        gap:10px;
+        justify-content: space-between;
+        text-align: left;
+        margin: auto;
+        padding: 10px;
+    }
+    
+    .foot-logo{
+        grid-column: 1/2;
+    }
+
+    .name {
+        margin-top: -1px;
+        grid-column: 2/3;
+    }
+    
+    .address {
+        margin-top: -70px;
+        grid-column: 2/3;
+    }
+    
+    .email{
+        grid-column: 3/4;
+        grid-row: 1;
+    }
+    
+    .phone{
+        grid-column: 3/4;
+        margin-top: -70px;
+        
+    }
+
+    .map{
+        grid-column: 3/4;
+        margin-top: -50px;
+    }
+    
 }
+

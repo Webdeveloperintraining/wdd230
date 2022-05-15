@@ -12,6 +12,7 @@
         margin-left:2vw;
         border-left: 1px solid 
         rgba(0,0,0,0.3);
+        padding: 10px;
     }
 
     main {
@@ -68,4 +69,44 @@
         grid-row:3/4;
     }
 
+
+    #footer-flex {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        gap:10px;
+        justify-content: space-between;
+        text-align: left;
+        margin: auto;
+        padding: 40px;
+    }
+    
+    .foot-logo{
+        grid-column: 1/2;
+    }
+
+    .name {
+        margin-top: -1px;
+        grid-column: 2/3;
+    }
+    
+    .address {
+        margin-top: -70px;
+        grid-column: 2/3;
+    }
+    
+    .email{
+        grid-column: 3/4;
+        grid-row: 1;
+    }
+    
+    .phone{
+        grid-column: 3/4;
+        margin-top: -70px;
+        
+    }
+
+    .map{
+        grid-column: 3/4;
+        margin-top: -50px;
+    }
 }

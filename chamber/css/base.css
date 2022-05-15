@@ -101,8 +101,6 @@ main {
 }
 
 footer {
-    display: flex;
-    flex-direction: column;
     padding:20px;
     background-color: #2C3546;
     text-align: center;
@@ -116,4 +114,11 @@ footer p , a {
     text-decoration: none;
     font-family:'Roboto', sans-serif;
     color: white;
+    }
+    
+    
+.true-footer {
+    border-top:1px solid  white;
+    padding:15px;
+
 }
