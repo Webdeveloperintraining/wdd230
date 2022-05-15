@@ -1,35 +1,38 @@
 header {
-    display: flex;
     background-color: #2C3546;
     font-family:'Roboto', sans-serif;
     color: white;
-    align-content:center;
-    justify-content:space-around;
-    flex-wrap:wrap;
     padding:10px;
-    gap:.5rem;
+    
 }
 
 #head-logo {
     width:4rem;
-    /*width:7rem;*/
 }
 
-header button{
+#flexing {
+    display: flex;
+    justify-content:space-around;
+    align-items: center;
+    padding: 20px;
+}
+
+
+button{
     width:2rem;
     height:2rem;
-    margin-top:1rem;
-}
+
+    }
 
 #facebook, #linkedin{
     width: 1.5rem;
-    margin-top:1.1rem;
 }
 
 #date_decoration {
-    padding: 10px;
+    padding: 15px;
     line-height: 20px;
     background-color: white;
+    text-align: center;
     color:#2C3546;
 }
 
