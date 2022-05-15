@@ -1,8 +1,4 @@
 @media only screen and (min-width: 35rem) {
-    header {
-        padding:20px;
-    }
-
     header h1,h2,h3,h4,h5,p {
         font-size: 1.6rem;
     }
@@ -21,20 +17,6 @@
         width: 2rem;
         margin-top:1.5rem;
     }
-    
-
-
-
-
-
-
-
-
-
-
-
-
-
 
     
     main {
@@ -71,35 +53,4 @@
         gap:5px;
     }
     
-   nav ul li a {
-       border:none;
-       border-right: 1px solid rgba(0,0,0,0.3);
-   }
-
-FOOTER{
-   align-content:center;
-   justify-content:space-around;
-   flex-direction: row;
-   flex-wrap:nowrap;
-   padding:10px;
-   gap:.5rem;
-}
-   /*
-   footer{
-    display: grid;
-    grid-template-rows:;
-    
-   }
-
-   .foot-logo {
-    grid-column: 1/2;
-}
-   .address{
-    grid-column: 2/3;
-   }
-
-   .email,.map,.phone{
-    grid-column:3/4;
-    }
-*/
 }

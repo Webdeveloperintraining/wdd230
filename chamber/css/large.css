@@ -2,15 +2,16 @@
     header button {
         display: none;
     }
-
+    nav ul li a {
+        border:none;
+        border-right: 1px solid rgba(0,0,0,0.3);
+        padding:.5rem 1rem
+    }
     nav ul#primary-nav{
         display:flex;
         margin-left:2vw;
         border-left: 1px solid 
         rgba(0,0,0,0.3);
-    }
-    nav ul li a  {
-        padding:.5rem 1rem
     }
 
     main {
