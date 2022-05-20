@@ -16,9 +16,9 @@
     }
 
     main {
-        grid-template-columns:24% 50% 24% ;
-        grid-template-rows: repeat(3,31%);
-        margin:auto;
+        grid-template-columns:1fr 2fr 1fr ;
+        /*grid-template-rows: repeat(3,31%);*/
+        margin-top:-10px;
     }
     
     .hero {

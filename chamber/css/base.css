@@ -79,7 +79,7 @@ main {
 .hero,.event,.weather,.news,.main-s,.join{
     border: 1px solid black;
     padding: 7rem;
-    background: gainsboro;
+    background:#2C3546;
 }
 
 .main-s {
