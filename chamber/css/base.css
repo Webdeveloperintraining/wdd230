@@ -1,3 +1,8 @@
+body,main,footer {
+    margin:auto;
+    
+}
+
 header {
     background-color: #2C3546;
     font-family:'Roboto', sans-serif;
@@ -26,6 +31,10 @@ button{
 
 #facebook, #linkedin{
     width: 1.5rem;
+}
+
+.rio {
+    width:100%;
 }
 
 #date_decoration {
@@ -78,7 +87,6 @@ main {
 
 .hero,.event,.weather,.news,.main-s,.join{
     border: 1px solid black;
-    padding: 7rem;
     background:#2C3546;
 }
 
