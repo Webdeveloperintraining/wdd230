@@ -3,22 +3,23 @@
         display: none;
     }
     nav ul li a {
+        width:10rem;
+        padding: 20px;
         border:none;
         border-right: 1px solid rgba(0,0,0,0.3);
-        padding:.5rem 1rem
+        border-left: 1px solid rgba(0,0,0,0.3);
     }
     nav ul#primary-nav{
         display:flex;
         margin-left:2vw;
-        border-left: 1px solid 
-        rgba(0,0,0,0.3);
         padding: 10px;
+        align-items: center;
+        justify-content: center;
+        
     }
 
     main {
         grid-template-columns:1fr 2fr 1fr ;
-        /*grid-template-rows: repeat(3,31%);*/
-        margin-top:-10px;
     }
     
     .hero {
