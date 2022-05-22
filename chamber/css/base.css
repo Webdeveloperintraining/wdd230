@@ -253,8 +253,21 @@ h1,h2,h3,h4 {
     border: 1px solid black;
     background:#2C3546;
     padding: 5rem;
-    text-align: center;
+    justify-content: center;
 }
+
+#weather-grid {
+    text-align: center;
+    display: grid;
+}
+.weather img {
+    grid-column: 1/2;
+
+}
+.weather h3 {
+    grid-column: 2/3;
+}
+
  main {
     display:flex;
     flex-direction:column;
@@ -300,7 +313,7 @@ footer p , a {
    }
     
 .true-footer {
-    border-top:1px solid  white;
+    border-top:1px solid white ;
     padding:15px;
 }
 
