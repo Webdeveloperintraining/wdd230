@@ -1,3 +1,4 @@
+/* 
 body,main,footer {
     margin:auto;
     
@@ -84,7 +85,13 @@ main {
     margin-left: auto;
     margin-right: auto;
 }
-
+/*
+#banner {
+    border: 1px solid black;
+    background:#2C3546;
+}
+*/
+/*
 .hero,.event,.weather,.news,.main-s,.join{
     border: 1px solid black;
     background:#2C3546;
@@ -129,6 +136,164 @@ footer p , a {
     border-top:1px solid  white;
     padding:15px;
 
+}
+p a:hover { color: #FFD600;} */
+
+
+header {
+    background-color: #2C3546;
+    font-family:'Roboto', sans-serif;
+    color: white;
+    padding:10px; 
+    margin-top:-8px;
+
+}
+
+#head-logo {
+    width:4rem;
+}
+
+#flexing {
+    display: flex;
+    justify-content:space-around;
+    align-items: center;
+    padding: 20px;
+}
+
+button{
+    width:2rem;
+    height:2rem;
+
+    }
+
+#facebook, #linkedin{
+    width: 1.5rem;
+}
+
+#date_decoration {
+    padding: 15px;
+    line-height: 20px;
+    background-color: white;
+    text-align: center;
+    color:#2C3546;
+}
+
+nav ul {
+    padding: 0;
+    margin: 0;
+    list-style-type: none;
+    background-color: white;
+    margin-bottom: 20px;
+}
+
+nav ul li a {
+    text-align: center;
+    display: block;
+    text-decoration: none;
+    font-family:'Roboto', sans-serif;
+    padding:.8rem 2vw;
+    color:black;
+    border: 1px solid #2C3546;
+    
+}
+
+nav ul li a:hover { background-color: #FFD600;}
+
+nav ul{display: none;}
+nav ul.open {display: block;}
+
+#hamburguerBtn span:nth-child(1) {display: block;}
+#hamburguerBtn span:nth-child(2) {display: none;}
+#hamburguerBtn.open span:nth-child(1) {display: none;}
+#hamburguerBtn.open span:nth-child(2) {display: block;}
+
+h1,h2,h3,h4 {
+    color: white;
+    font-family:'Archivo', sans-serif;
+}
+
+.rio {
+    margin-top:20px;
+    width: 100%;
+    height: 400px;
+    position: relative;
+    
+}
+.hero{
+    position: relative;
+}
+#welcome-title {
+    position: absolute;
+    text-align: left;
+    top:50px;
+    left:20px;
+}
+
+.joinbutton {
+    bottom:1px;
+    right:2rem;
+	position: absolute;
+    border: 1px solid black;
+    background:#2C3546;
+    padding:10px;
+}
+
+.joinbutton a:hover{
+    color: #FFD600;
+
+}
+.event,.weather,.news,.main-s,.join{
+    border: 1px solid black;
+    background:#2C3546;
+    padding: 5rem;
+}
+ main {
+    display:flex;
+    flex-direction:column;
+    gap:20px;
+
+ }
+.main-s {
+    border: 1px solid black;
+    display: grid;
+    padding: 2rem;
+    align-content:center;
+    justify-content:center;
+}
+
+.main-s .spotlight1,.spotlight2,.spotlight3 {
+    border: 1px solid black;
+    padding: 5rem;
+}
+.join {
+    display: none;
+}
+
+.spotlight3 {
+    display: none;
+}
+
+footer {
+    margin-top: 20px;
+    background-color: #2C3546;
+    text-align: center;
+    margin-bottom:-16px;
+
+}
+.foot-logo {
+    margin-top: 10px;
+    width: 9rem;
+}
+
+footer p , a {
+    text-decoration: none;
+    font-family:'Roboto', sans-serif;
+    color: white;
+   }
+    
+.true-footer {
+    border-top:1px solid  white;
+    padding:15px;
 }
 
 p a:hover { color: #FFD600;}

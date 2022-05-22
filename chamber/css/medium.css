@@ -18,6 +18,7 @@
 
     
     main {
+        display: grid;
         text-align: center;
         grid-template-columns: repeat(2, 25%);
     }
@@ -90,8 +91,5 @@
         grid-column: 3/4;
         margin-top: -50px;
     }
-
-
-    
 }
 
