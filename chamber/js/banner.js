@@ -1,6 +1,8 @@
-const bdate= new Date();
-const currentDay=bdate.getDay();
-var banner=document.querySelector('#banner');
-if (currentDay==1||currentDay==2) {
-    banner.styles.display="block";
+let bdate= new Date().getDay();
+const banner=document.querySelector('#banner');
+if (bdate===1||bdate===2) {
+    banner.style.display="block";
+}
+else {
+    banner.style.display="none";
 };
