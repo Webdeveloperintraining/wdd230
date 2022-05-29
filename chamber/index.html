@@ -39,7 +39,13 @@
     <main>
        <div class="hero">
         <div id="banner"><h2>🤝🏼 Come join us for the chamber meet and greet Wednesday at 7:00 p.m.</h2></div>
-            <img class ="rio" src="./images/zona_rio_tijuana.jpg" alt="Plaza Rio Tijuana" >
+        <picture class ="rio" >
+               <source srcset="./images/medium600_wdd230-org2.jpg" media="(min-width:
+                500px) and (max-width: 799px)">
+                <source srcset="./images/large_wdd230-org2.jpg" media="(min-width:
+                800px)">
+            <img src="./images/small_wdd230-org2.jpg" alt="Plaza Rio Tijuana" >
+        </picture>
             <h1 id="welcome-title">Welcome to River</h1>
             <h2 class="joinbutton"><a href="#">Join the Chamber</a></h2>
         </div>
@@ -87,7 +93,6 @@
                 <p>sales@coppel.com</p>
                 <p>+52 664 123 4567 | <a href="#">Website</a></p>
              </div>
-            </div>
        </div>
        <div class="join">
            <p>Join</p>

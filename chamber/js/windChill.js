@@ -1,4 +1,4 @@
-var temperature=parseInt(50);
+var temperature=parseInt(40);
 var speed=parseFloat(3);
 
 let t=document.querySelector("#temperature");
