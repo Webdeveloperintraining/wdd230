@@ -19,7 +19,7 @@
 <body>
     <header>
         <div id="flexing">
-            <a href="../chamber/index.html"><img id="head-logo" src="./images/white_logo.png" alt="Logo of Rivers Commerce chamber"></a>
+            <a href="../chamber/index.html"><img id="head-logo" src="./images/white_logo.webp" alt="Logo of Rivers Commerce chamber"></a>
             <h3>Rivers <br>Commerce <br> Chamber</h3>
             <a href="https://www.facebook.com/"><img id="facebook" src="./images/facebook_icon.png" alt="This a Facebook logo"></a>
             <a href="https://www.linkedin.com/"><img id="linkedin" src="./images/linkedin_icon.png" alt="This a LinkedIn logo"></a>
@@ -37,10 +37,9 @@
             </ul>
         </nav>
     <main>
-       <!--<div id="banner"><h2>🤝🏼 Come join us for the chamber meet and greet Wednesday at 7:00 p.m.</h2></div>-->
        <div class="hero">
-            <p>Hero with site name and call to action</p>
-            <img class ="rio" src="./images/rsz_zona_río_tijuana.jpg" alt="Plaza Rio Tijuana" >
+        <div id="banner"><h2>🤝🏼 Come join us for the chamber meet and greet Wednesday at 7:00 p.m.</h2></div>
+            <img class ="rio" src="./images/zona_rio_tijuana.jpg" alt="Plaza Rio Tijuana" >
             <h1 id="welcome-title">Welcome to River</h1>
             <h2 class="joinbutton"><a href="#">Join the Chamber</a></h2>
         </div>
@@ -52,19 +51,19 @@
        <div class="weather">
            <div id="weather-grid">
                 <h2>Weather</h2>
-                <img src="./images/rsz_cloudy_weather.png" width="150px"><h2>20 C</h2>
+                <img src="./images/rsz_cloudy_weather.png" width="150px">
+                <span id="temperature"></span>
                 <h3>Partly Cloud</h3>
                 <div id="w-line"><p id="wline"></p></div>
                 <p>Wind Speed:</p>
-                <p>2.5km/h</p>
+                <span id="wind"></span>
                 <p>Wind Chill:</p>
-                <p>N/A</p>
+                <span id="wind-chill"></span>
             </div>
        </div>
        <div class="news">
         <h3>News Release</h3>
-        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Consequatur harum officiis sint inventore incidunt modi eaque, in suscipit neque voluptatem, explicabo sequi nesciunt ratione aliquid laudantium fugit culpa officia laborum!
-        Quibusdam possimus, odit quidem ab veritatis labore sit quaerat autem consectetur dolorem ea aliquid veniam sed deleniti, dolore modi natus. Adipisci, recusandae dolores at consequatur aperiam ex sunt ab ratione!</p>
+        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Suscipit necessitatibus at aspernatur? Possimus, inventore numquam? Ipsum totam, repudiandae, deleniti officiis perferendis obcaecati saepe doloribus, corporis natus aliquam voluptatem fugit numquam.</p>
        </div>
        <div class="main-s">
            <div class="spotlight1">
@@ -72,21 +71,21 @@
                <img src="./images/Famsa_logo.svg" alt="Company logo"  width= "150px">
                <p>Get more furniture with less money</p>
                <p>sales@famsa.com</p>
-               <p>Phone:+52 664 689 6133 | <a href="#">Website</a></p>
+               <p>+52 664 689 6133 | <a href="#">Website</a></p>
             </div>
            <div class="spotlight2">
                 <h3>Pizza Pizza</h3>
-                <img src="./images/rsz_pizza_logo.png" alt="Company logo" width= "150px">
-                <p>When you eat our Pizza,nothing will be the same  </p>
-                <p>pizzapizza@famsa.com</p>
-                <p>Phone:+52 664 879 4567 | <a href="#">Website</a></p>
+                <img src="./images/rsz_pizza_logo-min.png" alt="Company logo" width= "150px">
+                <p>More than Pizza</p>
+                <p>service@pizza.com</p>
+                <p>+52 664 879 4567 | <a href="#">Website</a></p>
             </div>
             <div class="spotlight3">
                 <h3>Coppel</h3>
                 <img src="./images/rsz_logo_coppel.png" alt="Company logo" >
                 <p>We have what you're looking for and more</p>
                 <p>sales@coppel.com</p>
-                <p>Phone:+52 664 123 4567 | <a href="#">Website</a></p>
+                <p>+52 664 123 4567 | <a href="#">Website</a></p>
              </div>
             </div>
        </div>
@@ -109,5 +108,6 @@
     <script src="./js/dates.js"></script>
     <script src="./js/hamburguer.js"></script>
     <script src="./js/banner.js"></script>
+    <script src="./js/windChill.js"></script>
 </body>
 </html>
