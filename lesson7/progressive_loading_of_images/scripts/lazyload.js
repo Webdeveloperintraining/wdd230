@@ -1,14 +1,15 @@
 //Selects the images to be loaded
 let imagesToLoad = document.querySelectorAll("img[data-src]");
 
-//This code creates an anonymous function with a parameter that 
+//This constant has two arrow functions, the first function sets the image to be loaded 
 const loadImages = (image)=>{
     image.setAttribute("src",image.getAttribute("data-src"));
+//The second function uses .onload property to remove the images on data-src when they are loaded.
 image.onload = () => {
     image.removeAttribute("data-src");
   };
 };
-
+//Here we have an if statement that will make our images load as they are displayed on the page
 if('IntersectionObserver' in window) {
     const observer = new IntersectionObserver((items, observer) => {
       items.forEach((item) => {
@@ -26,4 +27,3 @@ if('IntersectionObserver' in window) {
       loadImages(img);
     });
   }
-//This function replaces the placeholder images with the actual images we want to display, the ones selected above
