@@ -9,7 +9,7 @@ image.onload = () => {
     image.removeAttribute("data-src");
   };
 };
-//Here we have an if statement that will make our images load as they are displayed on the page
+
 if('IntersectionObserver' in window) {
     const observer = new IntersectionObserver((items, observer) => {
       items.forEach((item) => {
