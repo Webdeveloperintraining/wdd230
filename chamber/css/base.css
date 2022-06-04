@@ -220,7 +220,12 @@ article {
     background-color:#2C3546;
 }
 
-#demo {
+article img {
+    display: block;
+    margin: auto;
+}
+
+.demo {
     color: black;
 }
 
