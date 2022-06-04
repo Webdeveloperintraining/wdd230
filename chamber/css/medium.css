@@ -114,4 +114,6 @@ figcaption{
     font-family:'Roboto', sans-serif;
 }
 
+#places picture img:hover {box-shadow: 0 0 50px #FFD600;}
+
 }
