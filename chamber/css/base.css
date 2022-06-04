@@ -11,10 +11,6 @@ main{
     gap:20px;
 }
 
-img {
-    width: 100%;
-}
-
 h1,h2,h3,h4,h5 {
     font-family:'Archivo', sans-serif;
     color:white;
@@ -39,7 +35,6 @@ p,a {
 button{
     width:2rem;
     height:2rem;
-
     }
 
 #facebook, #linkedin{
@@ -82,11 +77,6 @@ nav ul.open {display: block;}
 #hamburguerBtn span:nth-child(2) {display: none;}
 #hamburguerBtn.open span:nth-child(1) {display: none;}
 #hamburguerBtn.open span:nth-child(2) {display: block;}
-
-h1,h2,h3,h4 {
-    color: white;
-    font-family:'Archivo', sans-serif;
-}
 
 .hero picture {
     margin-top:20px;
@@ -213,6 +203,7 @@ footer p , a {
     border-top:1px solid  white;
     padding:15px;
 }
+
 p a:hover { color: #FFD600;} 
 
 #rio {
@@ -221,3 +212,14 @@ p a:hover { color: #FFD600;}
     object-fit:cover;
 }
 
+#places {
+    display: none;
+}
+
+article {
+    background-color:#2C3546;
+}
+
+#demo {
+    color: black;
+}

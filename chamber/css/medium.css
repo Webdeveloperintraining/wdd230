@@ -91,4 +91,16 @@
         grid-column: 3/4;
         margin-top: -50px;
     }
+
+    #places{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-content: center;
+        text-align: center;
+    }
+
+
+
+
 }
