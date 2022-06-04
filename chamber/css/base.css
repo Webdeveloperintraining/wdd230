@@ -80,11 +80,16 @@ nav ul.open {display: block;}
 
 .hero picture {
     margin-top:20px;
-    max-width: 100%;
-    height:auto;
     position: relative;
     text-align:center;
 }
+
+#rio {
+    height: 100%;
+    width: 100%;
+    object-fit:cover;
+}
+
 .hero{
     position: relative;
 }
@@ -102,7 +107,7 @@ nav ul.open {display: block;}
     position: absolute;
     text-align: left;
     color: black;
-    top: 1rem;
+    top:.1px;
     left:20px;
 }
 
@@ -206,27 +211,31 @@ footer p , a {
 
 p a:hover { color: #FFD600;} 
 
-#rio {
-    height: 100%;
-    width: 100%;
-    object-fit:cover;
-}
-
 #places {
     display: none;
 }
 
+#demographics{
+    display:flex;
+    flex-direction:column;
+    gap:1rem;
+}
+
 article {
     background-color:#2C3546;
+    padding: 1rem;
 }
 
 article img {
     display: block;
     margin: auto;
+    height: 100%;
+    width: 100%;
+    object-fit:contain
 }
 
 .demo {
-    color: black;
+    color:#2C3546;
 }
 
 picture img[data-src] {
@@ -238,8 +247,7 @@ picture img {
     transition: filter 0.5s;
   }
 
-
-
-  #places {
-      display: none;
-  }
+  #visit-section{
+    background-color:#2C3546;
+    padding: 1rem;
+}
