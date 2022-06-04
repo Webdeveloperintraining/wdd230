@@ -92,14 +92,14 @@
         margin-top: -50px;
     }
 
-    #places{
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-content: center;
-        text-align: center;
-    }
+#discover-grid{
+    display: grid;
+    grid-template-columns:1fr 1fr;
+}
 
+#places{
+    display: block;
+}
 
 
 

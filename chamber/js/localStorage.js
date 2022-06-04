@@ -1,0 +1,1 @@
+const visitsDisplay =document.querySelector(".visits");
