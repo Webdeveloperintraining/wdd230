@@ -220,17 +220,17 @@ p a:hover { color: #FFD600;}
     gap:1rem;
 }
 
-article {
+#demographics section {
     background-color:#2C3546;
     padding: 1rem;
 }
 
-article img {
+#demographics img {
     display: block;
     margin: auto;
-    width: 100%;
-    object-fit:contain
-}
+    width:100%;
+    object-fit:cover;
+} 
 
 .demo {
     color:#2C3546;
@@ -245,7 +245,3 @@ picture img {
     transition: filter 0.5s;
   }
 
-  #visit-section{
-    background-color:#2C3546;
-    padding: 1rem;
-}
