@@ -101,6 +101,13 @@
     display: block;
 }
 
+#places img {
+    width: 90%;
+}
+
+article img {
+    width:53%;
+}
 
 
 }

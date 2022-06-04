@@ -61,13 +61,13 @@
     <section>
         <section>
             <h2>Page Visits</h2>
-            <h3>Number of visits to Page:</h3><span><p> </p></span>
-            <h3>Timestamp:</h3><span><p></p></span>
+            <h3>Number of visits to the page: <span class="visits"></span><p></p></h3>
+            <h3>Timestamp: <span class="today"><p></p></span></h3>
         </section>    
     <h1 class="demo">Demographics</h1>
     <article>
         <h2>Population in Tijuana</h2>
-        <img src="./images/discover/400x400.jpg" data-src="./images/discover/small-total-population.jpg" alt="Male and Woman statistics">
+        <picture><source srcset="./images/discover/total-population.svg" media="(min-width:800px)" ><img src="./images/discover/400x400.jpg" data-src="./images/discover/small-total-population.jpg" alt="Male and Woman statistics"></picture>
         <p>The total population of Baja California is 3,769,020 inhabitants. Of these, 1,868,431 are female
             (49.6%) and 1,900,589 are men (50.4%).</p>
     </article>
@@ -79,7 +79,7 @@
 
     <article>
         <h2>Means of Transportation to Work and to School</h2>
-        <img src="./images/discover/400x400.jpg" data-src="./images/discover/small-travel-time.jpg" alt="Travel time statistics">
+        <picture><source srcset="./images/discover/travel-time.svg" media="(min-width:800px)" ><img src="./images/discover/400x400.jpg" data-src="./images/discover/small-travel-time.jpg" alt="Travel time statistics"></picture>
         <p>In 2020, 39.7% of the population used to walk as the main means of transportation to work. Regarding the means of transport to go to the place of study, 64.5% of the population used bus, taxi, or similar as the main means of transportation.</p>
     </article>
 
@@ -104,5 +104,6 @@
 <script src="./js/dates.js"></script>
 <script src="./js/hamburguer.js"></script>
 <script src="./js/lazyload.js" defer></script>
+<script src="./js/localStorage.js"></script>
 </body>
 </html>
