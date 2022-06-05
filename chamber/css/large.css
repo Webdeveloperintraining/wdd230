@@ -143,5 +143,17 @@
         margin-top: -50px;
     }
 
+    #discover-grid{
+        font-size: 1.4rem;
+    }
+
+    #places img {
+        width: 80%;
+    }
+
+    #demographics img {
+        width: 80%;
+    }
+
 
 }
