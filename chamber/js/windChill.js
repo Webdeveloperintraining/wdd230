@@ -1,6 +1,6 @@
 //Temperature and Wind Speed Values
 var temperature=parseInt(50);
-var wSpeed=parseFloat(2.0);
+var wSpeed=parseFloat(3.0);
 
 // Document location where I want my results displayed
 let t=document.querySelector("#temperature");
