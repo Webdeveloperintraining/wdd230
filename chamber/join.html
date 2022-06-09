@@ -25,7 +25,7 @@
             <a href="https://www.linkedin.com/"><img id="linkedin" src="./images/homepage/linkedin_icon.png" alt="This a LinkedIn logo"></a>
             <button id="hamburguerBtn"><span>&#9776;</span><span>X</span></button>
         </div>
-            <p id="date_decoration"><span id="formatted-date"></span></p>
+            <p id="date_decoration"><span class="formatted-date"></span></p>
         </header> 
 <nav>
     <ul id="primary-nav">
@@ -37,22 +37,33 @@
     </ul>
 </nav>
 <main>
-    <form action="">
-        <label for="first-name">Name:</label>
-        <input type="text" name="" id="">
-        <label for="lastname">Lastname:</label>
-        <input type="text" name="" id="">
-        <label for="title">Position:</label>
-        <label for="mail">Email:</label>
-        <input type="email" name="" id="">
-        <label for="">Cellphone:</label>
-        <input type="tel" name="" id="">
-        <label for="business">Business Name</label>
-        <label for="">Select Membership</label>
-        <input type="checkbox" name="" id="">
-        <label for="">Business Description</label>
-        <textarea name="" id="" cols="30" rows="10"></textarea>
-        <input type="submit" value="">
+    <form action="thankyou.html" method="get">
+        <fieldset>
+            <legend>Applicant Information</legend>
+            <label>Name:</label>
+            <input type="text" name="fname">
+            <label>Lastname:</label>
+            <input type="text" name="lname">
+            <label>Position:</label>
+            <input type="text" name="company-position">
+            <label>Email:</label>
+            <input type="email" name="email">
+            <label>Cellphone:</label>
+            <input type="tel" name="phone">
+            <label>Business Name</label>
+            <input type="text" name="company">
+        </fieldset>
+        <fieldset>
+            <label>Select Membership</label>
+            <label><input type="radio" name="membership">Non-profit</label>
+            <label><input type="radio" name="membership">Bronze Membership</label>
+            <label><input type="radio" name="membership">Silver Membership</label>
+            <label><input type="radio" name="membership">Gold Membership</label>
+        </fieldset>    
+            <label>Business Description</label>
+            <textarea name="description" cols="30" rows="10"></textarea>
+            <input type="hidden" name="date" class="full-date">
+            <input type="submit" value="Join Chamber">
 
     </form>
 </main>
@@ -66,7 +77,7 @@
         <p class="map"><a href="https://www.google.com/maps/place/Zona+R%C3%ADo,+22010+Tijuana,+Baja+California/@32.5297362,-117.0554676,13z/data=!3m1!4b1!4m5!3m4!1s0x80d9485a82ce42b3:0xc7b29cc12debea5e!8m2!3d32.5309387!4d-117.0176165">🗺️ Location Map 🗺️</a></p>
     </div>
         <div id="line"></div>
-        <p class="true-footer">©<span id="year"></span> Rivers Commerce <b>Irvin Silva</b> <br> WDD 230 Project <br>Last Modification: <span id="full-date"></span></p>
+        <p class="true-footer">©<span class="year"></span> Rivers Commerce <b>Irvin Silva</b> <br> WDD 230 Project <br>Last Modification: <span class="full-date"></span></p>
     </footer>
     <script src="./js/dates.js"></script>
     <script src="./js/hamburguer.js"></script>
