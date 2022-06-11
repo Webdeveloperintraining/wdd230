@@ -10,3 +10,7 @@ document.querySelector(".year").innerHTML=year;
 //Last modified Date
 let d= document.lastModified;
 document.querySelector(".full-date").innerHTML=d;
+
+//Last modified Date as value
+let dv= document.lastModified;
+document.querySelector("#full-datev").value=dv;

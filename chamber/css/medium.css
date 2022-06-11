@@ -129,10 +129,13 @@ figcaption{
 #form-grid{
     display: flex;
     flex-direction:column;
+    justify-content: center;
+    align-content: center;
     text-align: justify;
 }
 
-
-
+textarea{
+    width: 98.9%;
+}
 
 }

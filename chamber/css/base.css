@@ -270,6 +270,10 @@ form label.top, form div{
     
 }
 
+textarea{
+    width: 98%;
+}
+
 form label.top input, form label.top select{
     -webkit-appearance:none; 
     display: block;
@@ -278,8 +282,7 @@ form label.top input, form label.top select{
     border-radius:4px;
     padding: .75rem;
     color:#2c3546;
-    width:90%;
-    max-width: 20rem;
+    width:91%;
     background-color: rgba(255, 255, 255, 0.1);
 }
 
