@@ -171,10 +171,14 @@
     #benefits{
         display: flex;
         flex-direction: column;
+        border: solid 1px #2C3546;
+        margin-top:-10px;
+        background-color: #2C3546;
+        padding: 20px;
     }
 
-    #benefits h1,h2 ,h3{
-        color: #2C3546;
+    #benefits h2{
+        color: #FFD600;
     }
 
     #benefits h1{
@@ -188,7 +192,7 @@
     }
 
     #benefits section ul li{
-        color: #2C3546;
+        color: white;
         font-family:'Roboto', sans-serif;
         max-width:90%;
     }

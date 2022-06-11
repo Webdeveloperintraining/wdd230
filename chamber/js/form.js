@@ -6,7 +6,7 @@ const form = document.querySelector('#form');
 const input = document.querySelector('#position-title');
 const verify=document.querySelector(".verified");
 
-const re = RegExp('ab+c');
+const re = /^(\w*){8,16}$/;
 
 function testInfo(positionInput) {
   const ok = re.exec(positionInput.value);
@@ -16,10 +16,5 @@ function testInfo(positionInput) {
   } else {
     verify.style.border="green solid 2px";
 }
-
-form.addEventListener('submit', (event) => {
-  event.preventDefault();
-  testInfo(input);
-});
 
 }
