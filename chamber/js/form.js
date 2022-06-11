@@ -9,9 +9,9 @@ function validate(){
   let validationRGEX = /^(\w*){8,16}$/;
   let result = validationRGEX.test(input);
 
-  if(result == false || result==undefined)
+  if(result == false)
   {
-    alert('Please enter a valid phone number');
+    alert('Please enter a valid Job position');
     document.querySelector('.validator').style.border="#FFD600 solid 2px";
     return false;
   }
