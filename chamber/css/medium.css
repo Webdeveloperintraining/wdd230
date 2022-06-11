@@ -17,6 +17,8 @@
     main {
         display: grid;
         text-align: center;
+        justify-content: center;
+        align-content: center;
         grid-template-columns: repeat(2, 25%);
     }
     .hero,.news,.join ,.main-s {
@@ -123,5 +125,14 @@ figcaption{
 }
 
 #places picture img:hover {box-shadow: 0 0 50px #FFD600;}
+
+#form-grid{
+    display: flex;
+    flex-direction:column;
+    text-align: justify;
+}
+
+
+
 
 }

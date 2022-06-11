@@ -155,5 +155,13 @@
         width: 80%;
     }
 
+    #form-grid{
+        display: grid;
+        grid-template-rows: 1fr 1fr;
+    }
+
+    #benefits{
+        display: block;
+    }
 
 }

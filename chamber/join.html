@@ -36,36 +36,62 @@
         <li><a href="../chamber/contact.html">Contact</a></li>
     </ul>
 </nav>
-<main>
+<main id="form-grid">
     <form action="thankyou.html" method="get">
         <fieldset>
             <legend>Applicant Information</legend>
-            <label>Name:</label>
-            <input type="text" name="fname">
-            <label>Lastname:</label>
-            <input type="text" name="lname">
-            <label>Position:</label>
-            <input type="text" name="company-position">
-            <label>Email:</label>
-            <input type="email" name="email">
-            <label>Cellphone:</label>
-            <input type="tel" name="phone">
-            <label>Business Name</label>
-            <input type="text" name="company">
+            <label class="top">First Name* <input type="text" name="fname" required placeholder="John"></label>
+            <label class="top">Lastname* <input type="text" name="lname" required placeholder="Smith"></label>
+            <label class="top">Position <input type="text" name="position-title" placeholder="CEO"></label>
+            <label class="top">Email* <input type="email" name="email" required placeholder="johnsmith@industries.com"></label>
+            <label class="top">Phone* <input type="tel" name="phone" required placeholder="+526641231231"></label>
+            <label class="top">Business* <input type="text" name="business" placeholder="Smith Industries" required></label>
         </fieldset>
         <fieldset>
-            <label>Select Membership</label>
-            <label><input type="radio" name="membership">Non-profit</label>
-            <label><input type="radio" name="membership">Bronze Membership</label>
-            <label><input type="radio" name="membership">Silver Membership</label>
-            <label><input type="radio" name="membership">Gold Membership</label>
-        </fieldset>    
-            <label>Business Description</label>
-            <textarea name="description" cols="30" rows="10"></textarea>
+            <legend>Membership</legend>
+            <label class="member"><input type="radio" name="membership" value="non-profit">Non-profit</label>
+            <label class="member"><input type="radio" name="membership" value="bronze">Bronze Membership</label>
+            <label class="member"><input type="radio" name="membership" value="silver">Silver Membership</label>
+            <label class="member"><input type="radio" name="membership" value="gold">Gold Membership</label>
+        </fieldset>
+        <fieldset>    
+            <legend>Business Description</legend>
+            <textarea name="description" cols="39" rows="10"></textarea>
             <input type="hidden" name="date" class="full-date">
-            <input type="submit" value="Join Chamber">
-
+        </fieldset>
+        <div id="centerBTN">
+            <input type="submit" value="Join Chamber" id="chamber-submit">
+        </diV>
     </form>
+
+    <div id="benefits">
+        <h1>Membership Benefits</h1>
+        <section>
+            <h2>Non-profit Benefits</h2>
+            <ul>
+                <li></li>
+            </ul>
+        </section>
+        <section>
+            <h2>Bronze Membership</h2>
+            <ul>
+                <li></li>
+            </ul>
+        </section>
+        <section>
+            <h2>Silver Membership</h2>
+            <ul>
+                <li></li>
+            </ul>        
+        </section>
+        <section>
+            <h2>Gold Membership</h2>
+            <ul>
+                <li></li>
+            </ul>
+        </section>
+    </div>
+
 </main>
 <footer>
     <div id="footer-flex">
