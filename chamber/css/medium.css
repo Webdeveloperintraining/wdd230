@@ -134,6 +134,10 @@ figcaption{
     text-align: justify;
 }
 
+form label.top input, form label.top select{
+    width:96.49%;
+    }
+
 textarea{
     width: 98.9%;
 }

@@ -37,12 +37,14 @@
     </ul>
 </nav>
 <main id="form-grid">
-    <form action="thankyou.html" method="get">
+    
+    <form id="form" action="thankyou.html" method="get">
+        <h1>Become a member</h1>
         <fieldset>
             <legend>Applicant Information</legend>
             <label class="top">First Name* <input type="text" name="fname" required placeholder="John"></label>
             <label class="top">Lastname* <input type="text" name="lname" required placeholder="Smith"></label>
-            <label class="top">Position <input type="text" name="position-title" placeholder="CEO"></label>
+            <label id="verified" class="top">Business Position <input id="position-title" type="text" name="position-title" placeholder="CEO"></label>
             <label class="top">Email* <input type="email" name="email" required placeholder="johnsmith@industries.com"></label>
             <label class="top">Phone* <input type="tel" name="phone" required placeholder="+526641231231"></label>
             <label class="top">Business* <input type="text" name="business" placeholder="Smith Industries" required></label>
@@ -68,46 +70,44 @@
         <h1>Membership Benefits</h1>
         <section>
             <h2>Non-profit Benefits</h2>
+            <h3>For Free</h3>
             <ul>
-                <li></li>
-                <li></li>
-                <li></li>
-                <li></li>
-                <li></li>
-                <li></li>
+                <li>Free Customized Landing Page that points to your website</li>
+                <li>Attend valuable monthly networking luncheons (order from the menu) - Make Critical Business Connections</li>
+                <li>Attend monthly chamber luncheons and learn from top business and government officials ($20 cost to cover catering)</li>
+                <li>Attend quarterly business alliance meetings where best practices are taught & discussed </li>
             </ul>
         </section>
         <section>
-            <h2>Bronze Membership</h2>
+            <h2>Bronze Membership </h2>
+            <h3>Price $250 Annually</h3>
             <ul>
-                <li></li>
-                <li></li>
-                <li></li>
-                <li></li>
-                <li></li>
-                <li></li>
+                <li>Special member pricing/discounts for Chamber events and advertising in the Chamber magazine</li>
+                <li>Opportunity to participate on Chamber committees </li>
+                <li>Directory listing on the Chamber website- Become publicly visible in the community </li>
+                <li>Chamber Membership plaque that can be displayed prominently in your place of business</li>
+                <li>Includes all Non-profit benefits </li>
             </ul>
         </section>
         <section>
-            <h2>Silver Membership</h2>
+            <h2>Silver Membership </h2>
+            <h3>Price: $350 Annually</h3>
             <ul>
-                <li></li>
-                <li></li>
-                <li></li>
-                <li></li>
-                <li></li>
-                <li></li>
+                <li>1 reserved seat at monthly Chamber Luncheons ($240 value). Save $40 annually vs paying for each individual luncheon </li>
+                <li>Logo displayed on the Chamber website </li>
+                <li>Customized advertisement video made for your business</li>
+                <li>Business listing in the annual Chamber magazine - Mailed to every home and business</li>
+                <li>Includes all Bronze level and Non-profit benefits</li>
             </ul>        
         </section>
         <section>
-            <h2>Gold Membership</h2>
+            <h2>Gold Membership </h2>
+            <h3>Price: $550 Annually</h3>
             <ul>
-                <li></li>
-                <li></li>
-                <li></li>
-                <li></li>
-                <li></li>
-                <li></li>
+                <li>Logo visibly displayed on all digital and printed materials</li>
+                <li>Sponsorship credit on select events</li>
+                <li>Banner recognition with logo displayed at all appropriate chamber events</li>
+                <li>Includes all previous levels benefits</li>
             </ul>
         </section>
     </div>
@@ -126,6 +126,7 @@
         <p class="true-footer">©<span class="year"></span> Rivers Commerce <b>Irvin Silva</b> <br> WDD 230 Project <br>Last Modification: <span class="full-date"></span></p>
     </footer>
     <script src="./js/dates.js"></script>
+    <script src="./js/form.js"></script>
     <script src="./js/hamburguer.js"></script>
 </body>
 </html>

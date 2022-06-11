@@ -210,7 +210,9 @@ footer p , a {
     padding:15px;
 }
 
-p a:hover { color: #FFD600;} 
+p a:hover { color: #FFD600;}
+
+/*CSS for Discover Page*/
 
 #places {
     display: none;
@@ -249,23 +251,29 @@ picture img {
     transition: filter 0.5s;
   }
 
-  form fieldset {
+  /*CSS for Join Page*/
+
+form fieldset {
     margin: 2rem;
     border:1px solid #2C3546 ;
     border-radius: 10px;
     padding: .5rem 2%;
     font-size: 1.1rem;
 }
+form h1{
+    color: #2C3546;text-align: center;
+}
 
 form legend{
     color:#2C3546;
     margin:0 1rem;
     padding: 0 0.5rem;
+    font-family:'Roboto', sans-serif;
 }
 
 form label.top, form div{
     display: block;
-    padding-top: 1rem;
+    padding: .5rem;
     color:#2C3546;
     
 }
@@ -320,10 +328,6 @@ form input#chamber-submit{
     align-content: center;
     padding: 20px;
   }
-
-form label.top input:required{
-    border:green solid 2px;
-}
 
 form label.top input:invalid{
     border: #FFD600 solid 2px;

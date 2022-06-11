@@ -157,15 +157,40 @@
 
     #form-grid{
         display: grid;
-        grid-template-columns: 1fr 1fr;
+        grid-template-columns: 1fr 1fr;        
     }
 
     textarea{
-        width: 99%;
+        width: 98%;
     }
 
+    form label.top input, form label.top select{
+        width:95%;
+        }
+
     #benefits{
-        display: block;
+        display: flex;
+        flex-direction: column;
+    }
+
+    #benefits h1,h2 ,h3{
+        color: #2C3546;
+    }
+
+    #benefits h1{
+        text-align: center;
+    }
+
+    #benefits section ul{
+        display: flex;
+        flex-direction: column;
+        gap: 12px;
+    }
+
+    #benefits section ul li{
+        color: #2C3546;
+        font-family:'Roboto', sans-serif;
+        max-width:90%;
     }
 
 }
