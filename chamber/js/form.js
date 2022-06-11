@@ -2,19 +2,18 @@
 let dv= document.lastModified;
 document.querySelector("#full-datev").value=dv;
 
-const form = document.querySelector('#form');
-const input = document.querySelector('#position-title');
-const verify=document.querySelector(".verified");
 
-const re = /^(\w*){8,16}$/;
+//This function validates if the Business position was submitted properly
+function validate(){
+  const input = document.querySelector('#position-title');
+  let validationRGEX = /^(\w*){8,16}$/;
+  let result = validationRGEX.test(input);
 
-function testInfo(positionInput) {
-  const ok = re.exec(positionInput.value);
-
-  if (!ok) {
-    alert('Business position format not valid');
-  } else {
-    verify.style.border="green solid 2px";
-}
-
-}
+  if(result == false || result==undefined)
+  {
+    alert('Please enter a valid phone number');
+    document.querySelector('.validator').style.border="#FFD600 solid 2px";
+    return false;
+  }
+  return true;
+};
