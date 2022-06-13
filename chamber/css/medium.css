@@ -21,6 +21,20 @@
         align-content: center;
         grid-template-columns: repeat(2, 25%);
     }
+    #banner{
+        background-color:black;
+        color: white;
+        text-align: center;
+        font-size:16px;
+        margin-bottom:-20px;
+    }
+
+    .joinbutton {
+        bottom:1px;
+        right:.5rem;
+    }
+    
+
     .hero,.news,.join ,.main-s {
         grid-column: 1/4;
     }

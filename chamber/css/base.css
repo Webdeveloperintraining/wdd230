@@ -97,11 +97,11 @@ nav ul.open {display: block;}
 }
 
 #banner{
-    padding: 50px;
+    padding: 10px;
+    font-size: .7rem;
     background-color:black;
     color: white;
     text-align: center;
-    color:#2C3546;
     margin-bottom:-20px;
 }
 
@@ -115,10 +115,11 @@ nav ul.open {display: block;}
 
 .joinbutton {
     bottom:1px;
-    right:2rem;
+    right:.5rem;
 	position: absolute;
     border: 1px solid black;
     background:#2C3546;
+    font-size: 1.5rem;
     padding:10px;
 }
 
