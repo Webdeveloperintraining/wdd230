@@ -24,14 +24,14 @@ p,a {
 }
 
 #head-logo {
-    width:4rem;
+    width:4.8rem;
 }
 
 #flexing {
     display: flex;
-    justify-content:space-around;
+    justify-content:space-between;
     align-items: center;
-    padding: 20px;
+    padding: 10px;
 }
 
 button{
@@ -40,7 +40,7 @@ button{
     }
 
 #facebook, #linkedin{
-    width: 1.5rem;
+    width: 2rem;
 }
 
 #date_decoration {
@@ -97,8 +97,7 @@ nav ul.open {display: block;}
 }
 
 #banner{
-    padding: 10px;
-    font-size: .7rem;
+    font-size: .8rem;
     background-color:black;
     color: white;
     text-align: center;
@@ -119,7 +118,7 @@ nav ul.open {display: block;}
 	position: absolute;
     border: 1px solid black;
     background:#2C3546;
-    font-size: 1.5rem;
+    font-size: 1.2rem;
     padding:10px;
 }
 
