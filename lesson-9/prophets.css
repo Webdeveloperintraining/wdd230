@@ -1,0 +1,55 @@
+body{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    flex-direction: column;
+    background-color:rgb(238, 238, 238);
+    font-size: 16px;
+}
+
+header,
+main,
+footer {
+  margin: 1rem;
+  text-align: center;
+}
+main{
+    box-shadow: 0 0 30px rgb(43, 42, 42);
+    background-color:rgb(197, 194, 194);
+}
+
+h1{
+  color:rgb(50, 44, 141) ;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+h2{
+    color: rgb(50, 44, 141);
+    font-family: Arial, Helvetica, sans-serif;
+}
+p{
+    font-size: 1.1rem;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.cards{
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+}
+
+section{
+    margin: 0.25rem;
+    padding: 0.35rem;
+    background-color: rgb(145, 149, 167);
+    
+}
+  
+  img {
+    height: 65%;
+    max-width: 75%;
+    box-shadow: 0 0 30px rgb(0, 0, 0);
+  }
+
+  footer{
+    color:rgb(50, 44, 141);
+    font-size: 1.2em;
+  }

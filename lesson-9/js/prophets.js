@@ -38,9 +38,9 @@ function displayProphets(prophet){
 
     // Add/append the section(card) with the h2 element
     card.appendChild(heading);
-    card.appendChild(portrait);
     card.appendChild(paragraph);
     card.appendChild(paragraph2);
+    card.appendChild(portrait);
     
 
     // Add/append the existing HTML div with the cards class with the section(card)
