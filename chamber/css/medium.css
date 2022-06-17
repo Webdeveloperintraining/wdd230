@@ -159,6 +159,9 @@ textarea{
     grid-template-columns: repeat(2, minmax(320px, 1fr));
 }
 
+img{
+    width:80%;
+}
 
 
 }

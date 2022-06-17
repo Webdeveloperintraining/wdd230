@@ -208,6 +208,8 @@
         grid-template-columns: repeat(3, minmax(320px, 1fr));
         }
 
-
+        img{
+            width:100%;
+        }
 
 }

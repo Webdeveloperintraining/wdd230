@@ -22,7 +22,7 @@ function companyInfo(company){
     name.innerHTML=company.name;
     phone.innerHTML=company.phone;
     address.innerHTML=company.address;
-    website.innerHTML=company.website;
+    website.innerHTML=`<a href="${company.website}" target= "_blank"></a>`;
     membership.innerHTML=company.membershipLevel;
     logo.setAttribute("src",company.icon);
     logo.setAttribute("alt",`${company.name}'s logo`);
