@@ -159,8 +159,14 @@ textarea{
     grid-template-columns: repeat(2, minmax(320px, 1fr));
 }
 
+.contacts section{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
 img{
-    width:80%;
+    width:100%;
 }
 
 
