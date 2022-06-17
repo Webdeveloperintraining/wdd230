@@ -358,7 +358,9 @@ form label.top input:invalid{
     padding:1.2rem;    
 }
 
-
+img{
+    width:60%;
+}
 
 
 
