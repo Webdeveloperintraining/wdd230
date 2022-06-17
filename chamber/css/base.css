@@ -358,8 +358,8 @@ form label.top input:invalid{
     padding:1.2rem;    
 }
 
-img{
-    width:60%;
+.contacts img{
+    width:300px;
 }
 
 
