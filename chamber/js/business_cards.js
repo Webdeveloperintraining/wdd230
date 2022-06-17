@@ -1,16 +1,16 @@
-const requestJSON="https://webdeveloperintraining.github.io/wdd230/chamber/json/data.json";
-const cards=document.querySelector(".contacts");
+const requestURL = "https://webdeveloperintraining.github.io/wdd230/chamber/json/data.json";
 
-async function getData (){
-    let result= await fetch(requestJSON);
-    if (result.ok){
-        let companyData=await result.json();
-        companyInfo(companyData);
-    }
-};
+fetch(requestURL)
+.then(function (response){
+    return response.json();
+})
+.then(function (jsonObject){
+    console.table(jsonObject)// temporary checking for valid response and data parsing
+    const companies=jsonObject["companies"];
+    companies.forEach(companyInfo)
+});
 
-function companyInfo(data){
-    data.companies.forEach(company =>{
+function companyInfo(company){
     let section=document.createElement("section");
     let name=document.createElement("h2");
     let phone=document.createElement("p");
@@ -19,20 +19,19 @@ function companyInfo(data){
     let membership=document.createElement("p");
     let logo=document.createElement("img");
 
-
     name.innerHTML=company.name;
     phone.innerHTML=company.phone;
     address.innerHTML=company.address;
     website.innerHTML=company.website;
     membership.innerHTML=company.membershipLevel;
     logo.setAttribute("src",company.icon);
-    logo.setAttribute("alt",`${company.name}'s logo`)
+    logo.setAttribute("alt",`${company.name}'s logo`);
 
     section.appendChild(name);
+    section.appendChild(logo);
     section.appendChild(phone);
     section.appendChild(website);
     section.appendChild(membership);
-    section.appendChild(logo);
-    cards.appendChild(section);
-});
-}
+
+    document.querySelector(".contacts").appendChild(section);
+};
