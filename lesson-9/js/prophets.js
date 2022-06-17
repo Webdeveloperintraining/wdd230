@@ -17,7 +17,6 @@ fetch(requestURL)
 
 
 
-
 function displayProphets(prophet){
      // Create elements to add to the document
    let card=document.createElement("section");

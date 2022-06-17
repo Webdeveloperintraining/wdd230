@@ -1,0 +1,103 @@
+{
+    "company":[
+        {
+        "name":"Jersey",
+        "address":"C. Primera 1131, Zona Centro, 22000 Tijuana, B.C.",
+        "phone":"(664)687-9100",
+        "website":"https://jersey.com.mx/",
+        "icon":"https://jersey.com.mx/wp-content/uploads/2021/06/jersey-logo.png",
+        "membershipLevel":"Silver",
+        "memberTime":2,
+        "founded":1932,
+        "coreBusiness":"Sale and distribution of milk & dairy products"
+        },
+        {
+        "name":"Famsa",
+        "address":"Salvador, C. Salvador Díaz Mirón 4ta. No. 8050, Centro, 22000 Tijuana, B.C.",
+        "phone":"(664)688-5202",
+        "website":"https://www.famsa.com/",
+        "icon":"https://famsamx.vtexassets.com/assets/vtex/assets-builder/famsamx.store-theme/2.0.59/logo_famsa___bed5ad1a78dd424bb4bc5f27fe974859.svg",
+        "membershipLevel":"Gold",
+        "memberTime":5,
+        "founded":1970,
+        "coreBusiness":"Furniture Retailer"
+        },
+        {
+        "name":"Toogino's",
+        "address":"Parque Industrial, 14 Boulevard el Refugio 24893, Paseos del Florido, 22244 Tijuana, B.C.",
+        "phone":"(664)978-2222",
+        "website":"http://facebook.com/tooginospizzeria",
+        "icon":"https://tooginos.pizza/wp-content/uploads/2021/06/LogoComplete_1.svg",
+        "membershipLevel":"Gold",
+        "memberTime":4,
+        "founded":1932,
+        "coreBusiness":"Food and Beverage Services"
+        },
+        {
+        "name":"Farmacias Similares",
+        "address":"Blvd. Insurgentes 9202, El Porvenir, 22224 Tijuana, B.C.",
+        "phone":"(664)625-9326",
+        "website":"https://www.farmaciasdesimilares.com/#!/",
+        "icon":"https://www.farmaciasdesimilares.com/images/logo-1.jpg",
+        "membershipLevel":"Bronze",
+        "memberTime":1,
+        "founded":2005,
+        "coreBusiness":"Generic medical retailer"
+        },
+        {
+        "name":"Pollo Feliz",
+        "address":"Blvd. Gustavo Diaz Ordaz 12850-1, Jardines de La Mesa, 22126 Tijuana, B.C.",
+        "phone":"(664)626-1185",
+        "website":"https://pollofelizslp.com/",
+        "icon":"http://pollofelizslp.com/wp-content/uploads/2015/07/pollofsmall.png",
+        "membershipLevel":"Bronze",
+        "memberTime":2,
+        "founded":1975,
+        "coreBusiness":"Mexican-style chicken chain"
+        },
+        {
+        "name":"El Florido",
+        "address":"Blvd. Insurgentes #8904.El Florido 1era Sección(Plaza Gran Florido).Tijuana B.C.",
+        "phone":"(664)625-9010",
+        "website":"https://www.elflorido.com.mx/",
+        "icon":"https://www.elflorido.com.mx/images/Logotipo-01.png",
+        "membershipLevel":"Silver",
+        "memberTime":3,
+        "founded":1995,
+        "coreBusiness":"Grocery Store"
+        },
+        {
+        "name":"Tecate",
+        "address":"Boulevard Héroes de la Independencia Bulevar Josefa Ortiz de Dominguez esq, 22237 Tijuana, B.C.",
+        "phone":"(664)645-3587",
+        "website":"https://tecate.com/",
+        "icon":"https://tecate.com/img/logo_tecate.png",
+        "membershipLevel":"Silver",
+        "memberTime":4,
+        "founded":1944,
+        "coreBusiness":"Beer sale and distribution"
+        },
+        {
+        "name":"L.A Cetto",
+        "address":"Av. Cañon Jhonson 2108, Hidalgo, 22130 Tijuana, B.C.",
+        "phone":"(664)636-9200",
+        "website":"https://web.lacetto.mx/wp/",
+        "icon":"https://web.lacetto.mx/wp/wp-content/uploads/2022/04/Recurso-1-4.png",
+        "membershipLevel":"Gold",
+        "memberTime":4,
+        "founded":1928,
+        "coreBusiness":"Winery"
+        },
+        {
+        "name":"Caffenio",
+        "address":"Boulevard Casa Blanca #19161, Fraccionamiento, Loma Dorada, 22214 Tijuana, B.C.",
+        "phone":"(800)223-3364",
+        "website":"https://www.caffenio.com/",
+        "icon":"https://www.caffenio.com/img/logos/logo_caffenio_negro.svg",
+        "membershipLevel":"Bronze",
+        "memberTime":3,
+        "founded":1941,
+        "coreBusiness":"Sale of coffee ans Ice creams"
+        }
+    ]
+}
