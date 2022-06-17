@@ -15,14 +15,14 @@ function companyInfo(company){
     let name=document.createElement("h2");
     let phone=document.createElement("p");
     let address=document.createElement("p");
-    let website=document.createElement("p");
+    let website=document.createElement("a");
     let membership=document.createElement("p");
     let logo=document.createElement("img");
 
     name.innerHTML=company.name;
     phone.innerHTML=company.phone;
     address.innerHTML=company.address;
-    website.innerHTML=`<a href="${company.website}" target= "_blank"></a>`;
+    website.innerHTML=`<a href=${company.website} target= "_blank"></a>`;
     membership.innerHTML=company.membershipLevel;
     logo.setAttribute("src",company.icon);
     logo.setAttribute("alt",`${company.name}'s logo`);
