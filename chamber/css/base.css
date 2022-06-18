@@ -4,7 +4,7 @@ header {
     margin-top:-8px;
 }
 
-main{
+.general-format{
     padding:15px;
     display:flex;
     flex-direction:column;
@@ -343,29 +343,32 @@ form label.top input:invalid{
 }
 /*Directory CSS*/
 
-#directory-grid{
+/* #directory-grid{
     display: flex;
     justify-content: center;
     align-content: center;
     text-align: center;
-}
-
-/* .contacts {
-	display: grid;
-	grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
-	align-items: center;
 } */
 
-#directory-grid h1{
+#directory-name{
     color: #2C3546;
+    text-align: center;
 }
 
-#directory-grid section{
-    border:1px solid #2C3546;
+.contacts section{
+    /* border:1px solid #2C3546;
     background-color: #2C3546;
-    margin: 1rem;
+    margin: 1rem; */
     padding:1.2rem;    
-    font-size: 1.2rem; 
+    /* font-size: 1.2rem;  */
+} 
+
+.contacts section:nth-child(1){
+    margin-top: 16px;
+}
+
+.contacts section:nth-child(9){
+    margin-bottom: 16px;
 }
 
 .contacts img{
@@ -375,8 +378,9 @@ form label.top input:invalid{
 .buttons{
     display: flex;
     flex-direction: row;
+    align-content: center;
+    justify-content: center;
     gap: 16px;
-    margin: auto;
 }
 .buttons button{
     width: 1.5em;
@@ -384,3 +388,55 @@ form label.top input:invalid{
     font-size: 2rem;
 }
 
+/* List view*/
+.list {
+    display:flex;
+    flex-direction:column;
+    justify-content: center;
+    align-content: center;
+    
+}
+.list section p, h2, a {
+    color: #2C3546;
+}
+
+.list section:nth-child(odd) {
+	background-color:#2C3546;
+}
+
+.list section:nth-child(odd) p {
+	color:white;
+}
+.list section:nth-child(odd) h2{
+	color:white;
+}
+.list section:nth-child(odd) a {
+	color:white;
+}
+
+.list section:nth-child(even) {
+	border: 3px solid #2C3546;
+}
+
+.list section img {
+	display: none;
+}
+
+/* Grid view */
+.grid {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    flex-direction: column;
+}
+.grid section {
+	text-align: center;
+    border:1px solid #2C3546;
+    background-color: #2C3546;
+    margin: 1rem;
+    font-size: 1.2rem;
+}
+
+.grid section > * {
+	margin: 0.1rem;
+}

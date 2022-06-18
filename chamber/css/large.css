@@ -208,8 +208,12 @@
         grid-template-columns: repeat(3, minmax(320px, 1fr));
         }
 
-        img{
-            width:100%;
-        }
+    img{
+        width:100%;
+    }
+
+    .buttons button{
+        font-size: 2.6rem;
+    }
 
 }

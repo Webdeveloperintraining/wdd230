@@ -1,5 +1,5 @@
-const grid= document.querySelector("grid");
-const list=document.querySelector("list");
+const grid= document.querySelector("#grid");
+const list=document.querySelector("#list");
 const display = document.querySelector(".contacts");
 
 grid.addEventListener("click", () => {
@@ -8,7 +8,7 @@ grid.addEventListener("click", () => {
 	display.classList.remove("list");
 });
 
-listbutton.addEventListener("click", showList); // example using defined function
+list.addEventListener("click", showList); // example using defined function
 
 function showList() {
 	display.classList.add("list");
