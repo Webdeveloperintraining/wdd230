@@ -1,5 +1,5 @@
 @media only screen and (min-width: 35rem) {
-    
+    /* Main page */
     #head-logo {
         width:6rem;
     }
@@ -104,6 +104,7 @@
         grid-column: 3/4;
         margin-top: -50px;
     }
+/* Discover page */
 
 #discover-grid{
     display: grid;
@@ -138,6 +139,8 @@ figcaption{
 
 #places picture img:hover {box-shadow: 0 0 50px #FFD600;}
 
+/* Join page */
+
 #form-grid{
     display: flex;
     flex-direction:column;
@@ -158,13 +161,11 @@ textarea{
     display: grid;
     grid-template-columns: repeat(2, minmax(320px, 1fr));
 }
-
-.contacts section{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    flex: 1;
+/* Directory page */
+.list {
+    display: grid;
+    grid-template-columns:minmax(320px, 1fr);
+    text-align: left;
 }
 
 .buttons{

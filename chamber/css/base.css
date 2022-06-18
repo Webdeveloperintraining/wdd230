@@ -4,7 +4,7 @@ header {
     margin-top:-8px;
 }
 
-.general-format{
+main{
     padding:15px;
     display:flex;
     flex-direction:column;
@@ -343,12 +343,12 @@ form label.top input:invalid{
 }
 /*Directory CSS*/
 
-/* #directory-grid{
+#directory-grid{
     display: flex;
     justify-content: center;
     align-content: center;
     text-align: center;
-} */
+}
 
 #directory-name{
     color: #2C3546;
@@ -356,11 +356,11 @@ form label.top input:invalid{
 }
 
 .contacts section{
-    /* border:1px solid #2C3546;
+    padding:1.2rem;
+    border:1px solid #2C3546;
     background-color: #2C3546;
-    margin: 1rem; */
-    padding:1.2rem;    
-    /* font-size: 1.2rem;  */
+    margin: 1rem;
+    font-size: 1.2rem;  
 } 
 
 .contacts section:nth-child(1){
@@ -394,49 +394,46 @@ form label.top input:invalid{
     flex-direction:column;
     justify-content: center;
     align-content: center;
-    
+    text-align: left;
 }
-.list section p, h2, a {
-    color: #2C3546;
+
+.list section {
+    padding: 1rem;
 }
 
 .list section:nth-child(odd) {
 	background-color:#2C3546;
 }
 
-.list section:nth-child(odd) p {
-	color:white;
-}
-.list section:nth-child(odd) h2{
-	color:white;
-}
-.list section:nth-child(odd) a {
-	color:white;
-}
-
 .list section:nth-child(even) {
 	border: 3px solid #2C3546;
+    background-color: white;
+}
+
+.list section:nth-child(even) p {
+    color: #2C3546;
+}
+
+.list section:nth-child(even) h2 {
+    color: #2C3546;
+}
+
+.list section:nth-child(even) a {
+    color: #2C3546;
+}
+
+.list section:nth-child(even) a:hover {
+    color:#FFD600;
 }
 
 .list section img {
 	display: none;
+}  
+
+.list section p:nth-child(3){
+    display: none;
+}
+.list section p:nth-child(4){
+    display: none;
 }
 
-/* Grid view */
-.grid {
-    display: flex;
-    justify-content: center;
-    align-content: center;
-    flex-direction: column;
-}
-.grid section {
-	text-align: center;
-    border:1px solid #2C3546;
-    background-color: #2C3546;
-    margin: 1rem;
-    font-size: 1.2rem;
-}
-
-.grid section > * {
-	margin: 0.1rem;
-}

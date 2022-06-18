@@ -207,6 +207,21 @@
     .contacts{
         grid-template-columns: repeat(3, minmax(320px, 1fr));
         }
+    
+    .list{
+        grid-template-columns:minmax(320px, 1fr);
+        }
+
+    .list section{
+    display: flex;
+    justify-content: space-evenly;
+    align-content: center;
+    flex-flow: row nowrap;
+    text-align: center;
+    gap: 10px;
+    font-size: 1.2rem;
+    padding: 2rem;
+    }
 
     img{
         width:100%;
