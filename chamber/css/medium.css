@@ -170,7 +170,7 @@ textarea{
 
 .buttons{
     display: flex;
-    flex-direction:row-reverse;
+    justify-content: end;
     gap: 16px;
     padding-right: 20px;
     margin:0;
