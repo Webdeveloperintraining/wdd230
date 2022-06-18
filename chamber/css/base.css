@@ -347,8 +347,17 @@ form label.top input:invalid{
     display: flex;
     justify-content: center;
     align-content: center;
-    text-align: center; 
-      
+    text-align: center;
+}
+
+/* .contacts {
+	display: grid;
+	grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+	align-items: center;
+} */
+
+#directory-grid h1{
+    color: #2C3546;
 }
 
 #directory-grid section{
@@ -356,11 +365,22 @@ form label.top input:invalid{
     background-color: #2C3546;
     margin: 1rem;
     padding:1.2rem;    
+    font-size: 1.2rem; 
 }
 
 .contacts img{
     width:60%;
 }
 
-
+.buttons{
+    display: flex;
+    flex-direction: row;
+    gap: 16px;
+    margin: auto;
+}
+.buttons button{
+    width: 1.5em;
+    height:1.5em;
+    font-size: 2rem;
+}
 
