@@ -3,6 +3,7 @@ header {
     background-color: #2C3546;
     padding:10px; 
     margin-top:-8px;
+    min-width:350px;
 }
 
 main{
@@ -11,6 +12,7 @@ main{
     flex-direction:column;
     justify-content: center;
     align-content: center;
+    min-width:350px;
     gap:20px;
 }
 
@@ -134,6 +136,7 @@ nav ul.open {display: block;}
 }
 
 .weather {
+    text-transform: capitalize;
     text-align: center;
     align-content:center;
     justify-content:center;
@@ -194,6 +197,7 @@ footer {
     text-align: center;
     margin-top: 1px;
     margin-bottom: -8px;
+    min-width:350px;
 }
 .foot-logo {
     margin: auto;

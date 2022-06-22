@@ -1,31 +1,60 @@
-//Temperature and Wind Speed Values
-var temperature=parseInt(50);
-var wSpeed=parseFloat(3.0);
-
 // Document location where I want my results displayed
-let t=document.querySelector("#temperature");
-let s=document.querySelector("#wind");
+let temp=document.querySelector("#temperature");
+let wind=document.querySelector("#wind");
 let windChill=document.querySelector("#wind-chill");
-
-// Wind speed Formulas
-const mph=wSpeed/1.60934
-const kmH=wSpeed*1.60934
-
-//Temperature Conversion Formulas
-const toCelsius=(temperature*9/5)+32;
-const toFarenheit=(temperature-32)*5/9;
-
-//Windchill Formulas
-const chillFormula=35.74+(0.6215*temperature)-(35.75*wSpeed**0.16)+(0.4275*temperature*wSpeed**0.16);
+const weatherImg=document.querySelector("#weather-img");
+const description=document.querySelector("#w_description");
+var temperature
+var wSpeed
 
 
-if (temperature>50 || wSpeed < 3.0){
-    windChill.innerHTML="<p>N/A</p>";
-    //windChill.innerHTML=`<p>${chillFormula.toFixed(2)} °F</p>`;
-} else{
-    //windChill.innerHTML="<p>N/A</p>";
-    windChill.innerHTML=`<p>${chillFormula.toFixed(2)} °F</p>`;
+//Using Weather API to display weather
+const url= "https://api.openweathermap.org/data/2.5/weather?q=Tijuana&appid=625b3e54582f7765110b7e680ff34db6&units=imperial";
+
+async function getJson(){
+    let response = await fetch(url);
+    if (response.ok) {
+        const data = await response.json();
+        displayTemp(data)
+}
+};
+getJson()
+
+function displayTemp(Tijuana){
+    temp.innerHTML= `<p>${Tijuana.main.temp.toFixed(0)} &deg;F</p>`;
+    wind.innerHTML=`<p>${Tijuana.wind.speed} mPH</p>`;
+    weatherImg.setAttribute("src",`https://openweathermap.org/img/w/${Tijuana.weather[0].icon}.png`);
+    weatherImg.setAttribute("alt",`${Tijuana.weather[0]}.description`);
+    description.innerHTML=`<h3>${Tijuana.weather[0].description}</h3>`;
+    temperature=parseInt(Tijuana.main.temp);
+    wSpeed=parseFloat(Tijuana.wind.speed);
+    Chill()
 };
 
-t.innerHTML=`<h2>${temperature} °F</h2>`;
-s.innerHTML=`<p>${wSpeed} mp/h</p>`;
+//Windchill Formula
+function Chill(){
+    const chillFormula=35.74+(0.6215*temperature)-(35.75*wSpeed**0.16)+(0.4275*temperature*wSpeed**0.16);
+    if (temperature > 50 || wSpeed < 3.0){
+        windChill.innerHTML="<p>N/A</p>";
+        //windChill.innerHTML=`<p>${chillFormula.toFixed(2)} °F</p>`;
+    } else{
+        //windChill.innerHTML="<p>N/A</p>";
+        windChill.innerHTML=`<p>${chillFormula.toFixed(2)} °F</p>`;
+    };
+};
+
+
+
+
+//Temperature and Wind Speed Values before API
+// var temperature=parseInt(50);
+// var wSpeed=parseFloat(3.0);
+
+
+// Wind speed Formulas
+// const mph=wSpeed/1.60934
+// const kmH=wSpeed*1.60934
+
+//Temperature Conversion Formulas
+// const toCelsius=(temperature*9/5)+32;
+// const toFarenheit=(temperature-32)*5/9;
