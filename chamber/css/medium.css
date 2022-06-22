@@ -53,6 +53,9 @@
         grid-row: 5/6;
         grid-column: 3/4;
     }
+    .weather-flex{
+        flex-wrap: wrap;
+    }
 
     .join {
         display: block;
