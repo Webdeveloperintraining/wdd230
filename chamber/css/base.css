@@ -4,6 +4,7 @@ header {
     padding:10px; 
     margin-top:-8px;
     min-width:350px;
+    align-content: center;
 }
 
 main{
@@ -28,19 +29,34 @@ p,a {
 }
 
 #head-logo {
-    width:4.8rem;
+    width:5rem;
 }
 
 #flexing {
     display: flex;
-    justify-content:space-between;
     align-items: center;
+    justify-content: space-evenly;
     padding: 10px;
+    gap: 20px;
+}
+
+.logo-nf{
+    display: flex;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: center;
+    gap: 10px;
+}
+
+#icons{
+    display: flex;
+    align-content: center;
+    gap: 10px;
 }
 
 button{
-    width:2rem;
-    height:2rem;
+    width:2.2rem;
+    height:2.2rem;
     }
 
 #facebook, #linkedin{

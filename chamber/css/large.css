@@ -8,6 +8,16 @@
         font-size:1rem;
     }
 
+    #flexing {
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+        padding: 10px;
+    }
+    #icons{
+        gap:25px;
+    }
+
     nav ul li a {
         width:10rem;
         padding: 20px;
@@ -21,7 +31,6 @@
         padding: 10px;
         align-items: center;
         justify-content: center;
-        
     }
 
     main {
