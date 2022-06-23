@@ -13,6 +13,7 @@ main{
     justify-content: center;
     align-content: center;
     min-width:350px;
+    min-height: 270px;
     gap:20px;
 }
 
@@ -366,6 +367,7 @@ form label.top input:invalid{
 #thanks p{
     color: #2C3546;
     text-align: center;
+    font-size: 1.5rem;
 }
 /*Directory CSS*/
 
