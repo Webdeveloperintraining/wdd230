@@ -187,20 +187,21 @@ nav ul.open {display: block;}
 }
 
 .main-s {
+    display: flex;
+    flex-direction: column;
     border: 1px solid black;
-    display: grid;
     padding: 20px;
     align-content:center;
-    justify-content:center;
-    gap: 10px;
+    justify-content:space-evenly;
+    gap: 1rem;
 }
 
 .main-s .spotlight1,.spotlight2,.spotlight3 {
-    border: 1px solid black;
+    border: 1px solid white;
     text-align: center;
 }
 
-.spotlight1,.spotlight2 {
+.spotlight1,.spotlight2,.spotlight3 {
     padding: 1rem;
 }
 
