@@ -71,12 +71,12 @@ function company3(company){
     let core=document.createElement("p");
     let logo=document.createElement("img");
 
-    namespot.innerHTML=company[8].name;
-    phone.innerHTML=`${company[8].phone}`;
-    website.innerHTML=`<a href="${company[8].website}" target="_blank">${company[8].website}</a>`;
-    core.innerHTML=`${company[8].coreBusiness}`;
-    logo.setAttribute("src",company[8].icon);
-    logo.setAttribute("alt",`${company[8].name}'s logo`);
+    namespot.innerHTML=company[5].name;
+    phone.innerHTML=`${company[5].phone}`;
+    website.innerHTML=`<a href="${company[5].website}" target="_blank">${company[5].website}</a>`;
+    core.innerHTML=`${company[5].coreBusiness}`;
+    logo.setAttribute("src",company[5].icon);
+    logo.setAttribute("alt",`${company[5].name}'s logo`);
     section.appendChild(namespot);
     section.appendChild(logo);
     section.appendChild(core)

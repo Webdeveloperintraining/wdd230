@@ -71,7 +71,12 @@
     }
 
     .join {
-        display: block;
+        display: flex;
+        flex-flow: column wrap;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        gap: 20px;
         grid-row: 4/5;
     }
     .main-s {
