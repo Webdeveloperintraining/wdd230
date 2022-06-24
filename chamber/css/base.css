@@ -159,20 +159,21 @@ nav ul.open {display: block;}
 }
 .weather-flex{
     display: flex;
+    flex-direction: column;
     justify-content:space-around;
     flex-wrap: wrap;
     align-items: center;
     text-align: center;
-    gap: 5px;
 }
 
 .weather-grid{
     display: grid;
     grid-template-columns: 50% 50%;
+    border-top:solid 1px white ;
 }
 
 .weather img {
-    width:6.5rem;
+    width:30%;
     grid-column:1/3;
     grid-row: 2/3;
 }
