@@ -24,7 +24,7 @@ function displayTemp(Tijuana){
     temp.innerHTML= `<p>${Tijuana.main.temp.toFixed(0)} &deg;F</p>`;
     wind.innerHTML=`${Tijuana.wind.speed} mPH`;
     weatherImg.setAttribute("src",`https://openweathermap.org/img/wn/${Tijuana.weather[0].icon}.png`);
-    weatherImg.setAttribute("alt",`${Tijuana.weather[0]}.description`);
+    weatherImg.setAttribute("alt",`${Tijuana.weather[0].description}`);
     description.innerHTML=`<h3>${Tijuana.weather[0].description}</h3>`;
     temperature=parseInt(Tijuana.main.temp);
     wSpeed=parseFloat(Tijuana.wind.speed);

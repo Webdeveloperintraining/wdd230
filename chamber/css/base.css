@@ -144,7 +144,6 @@ nav ul.open {display: block;}
 
 .joinbutton a:hover{
     color: #FFD600;
-
 }
 
 .event,.weather,.news,.main-s,.join{
@@ -227,13 +226,17 @@ nav ul.open {display: block;}
 
 .join {
     display: none;
+}
+
+.join p{
     text-align: center;
 }
 
 .join button{
     width:80%;
-    height: 4rem;
+    height: 4.5rem;
     background-color:goldenrod;
+
     border-style: none;
 }
 
