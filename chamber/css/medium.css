@@ -74,11 +74,28 @@
         display: flex;
         flex-flow: column wrap;
         justify-content: center;
-        align-items: center;
+        align-content: center;
         text-align: center;
-        gap: 20px;
         grid-row: 4/5;
     }
+
+    .join p{
+        text-align: center;
+    }
+    
+    .join h2 a{
+        display: block;
+        border: 1px solid black;
+        text-align: center;
+        background:goldenrod;
+        border-radius: 15px;
+        padding:15px;
+    }
+    
+    .join h2 a:hover{
+        background-color: #FFD600;
+    }
+
     .main-s {
         display: grid;
         grid-row: 3/4;
