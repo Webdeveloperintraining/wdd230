@@ -19,11 +19,6 @@
         width: 2.5rem;
     }
 
-    main {
-        display: grid;
-        text-align: center;
-        justify-content:center;
-    }
     #banner{
         font-size:16px;
         padding:5px;
@@ -40,9 +35,6 @@
         grid-column: 1/4;
     }
 
-    .joinbutton {
-        font-size: 1.8rem;
-    }
 
     .news {
         grid-row:3/4;
@@ -56,7 +48,9 @@
         gap: 10px;
     }
     
-    
+    .hero{
+        grid-row: 2/3;
+    }
     .event{
         grid-row: 5/6;
         grid-column: 1/3;

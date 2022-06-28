@@ -8,8 +8,10 @@ header {
 }
 
 main{
-    padding:15px;
-    display:flex;
+    padding-left:15px;
+    padding-right:15px;
+    padding-bottom: 15px;
+    display:grid;
     flex-direction:column;
     justify-content: center;
     align-content: center;
@@ -90,6 +92,8 @@ nav ul li a {
     
 }
 
+nav ul li.active a { background-color: goldenrod; color: white;}
+
 nav ul li a:hover { background-color: #FFD600;}
 
 nav ul{display: none;}
@@ -114,14 +118,16 @@ nav ul.open {display: block;}
 
 .hero{
     position: relative;
+    grid-row: 2/3;
 }
 
 #banner{
+    grid-row: 1/2;
     font-size: .8rem;
     background-color:black;
     color: white;
     text-align: center;
-    margin-bottom:-18px;
+    margin-bottom:-12px;
 }
 
 #welcome-title {
@@ -132,7 +138,23 @@ nav ul.open {display: block;}
     left:20px;
 }
 
-.joinbutton {
+.hero h2 a{
+    position: absolute;
+    display: block;
+    border: 1px solid black;
+    text-align: center;
+    background:goldenrod;
+    border-radius: 15px;
+    padding:12px;
+    bottom:40px;
+    right:1rem;
+}
+
+.hero h2 a:hover{
+    background-color: #FFD600;
+}
+
+/* .joinbutton {
     bottom:1px;
     right:.5rem;
 	position: absolute;
@@ -144,6 +166,9 @@ nav ul.open {display: block;}
 
 .joinbutton a:hover{
     color: #FFD600;
+} */
+.event{
+    grid-row: 3/4;
 }
 
 .event,.weather,.news,.main-s,.join{
@@ -156,6 +181,7 @@ nav ul.open {display: block;}
     text-transform: capitalize;
     text-align: center;
     padding: 1rem;
+    grid-row: 4/5;
 }
 
 .weather-flex{
@@ -187,8 +213,11 @@ nav ul.open {display: block;}
 .news,.event, .join{
     padding:1em;
 }
-
+.news{
+    grid-row: 5/6;
+}
 .main-s {
+    grid-row:6/7;
     display: flex;
     flex-direction: column;
     border: 1px solid black;
@@ -228,18 +257,6 @@ nav ul.open {display: block;}
     display: none;
 }
 
-.join p{
-    text-align: center;
-}
-
-.join button{
-    width:80%;
-    height: 4.5rem;
-    background-color:goldenrod;
-
-    border-style: none;
-}
-
 .spotlight3 {
     display: none;
 }
@@ -248,7 +265,6 @@ footer {
     padding:20px;
     background-color: #2C3546;
     text-align: center;
-    margin-top: 1px;
     margin-bottom: -8px;
     min-width:350px;
 }
@@ -265,7 +281,7 @@ footer p , a {
     
 .true-footer {
     border-top:1px solid  white;
-    padding:15px;
+    padding:1rem;
 }
 
 p a:hover { color: #FFD600;}
@@ -319,7 +335,8 @@ form fieldset {
 }
 
 form h1{
-    color: #2C3546;text-align: center;
+    color: #2C3546;
+    text-align: center;
 }
 
 form legend{

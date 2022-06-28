@@ -180,7 +180,7 @@
         display: grid;
         grid-template-columns: 1fr 1fr;
         max-width: 73rem;
-        margin: auto;       
+        margin: auto;      
     }
 
     textarea{
@@ -192,10 +192,11 @@
         }
 
     #benefits{
-        display: flex;
+        display: grid;
         flex-direction: column;
         border: solid 1px #2C3546;
-        margin-top:-10px;
+        margin-top: -10px;
+        align-items: center;
         background-color: #2C3546;
         padding: 20px;
     }
