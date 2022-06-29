@@ -4,9 +4,9 @@
         display: none;
     }
 
-    body {
-        /* font-size:1rem; */
-    }
+    /* body {
+        font-size:1rem;
+    } */
 
     #flexing {
         display: flex;
@@ -132,14 +132,14 @@
         margin: auto;
         margin-bottom: 20px;
     }
-
+/* 
     #places img {
         width: 80%;
     }
 
     #demographics img {
         width: 80%;
-    }
+    } */
 
 /* Join page */
     #form-grid{
