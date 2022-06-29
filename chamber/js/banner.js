@@ -9,7 +9,7 @@ if (bdate==1||bdate==2) {
 }
 else {
     banner.style.display="none";
-    
+    // banner.style.marginTop="-20px";
     //document.querySelector('.main-s').style.gridRow="2/3"
     //document.querySelector('.hero').style.gridRow="2/3"
 };
