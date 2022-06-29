@@ -1,4 +1,4 @@
-@media only screen and (min-width: 64rem) {
+@media only screen and (min-width: 63rem) {
     /* Main page */
     header button {
         display: none;
@@ -124,51 +124,13 @@
         justify-content: center;
         gap: 25%;
     }
-    /* #footer-flex {
-        display: grid;
-        grid-template-columns: 1fr 1fr 1fr;
-        gap:10px;
-        justify-content: space-between;
-        text-align: left;
-        margin: auto;
-        padding: 40px;
-    }
-    
-    .foot-logo{
-        grid-column: 1/2;
-    }
-
-    .name {
-        margin-top: -1px;
-        grid-column: 2/3;
-    }
-    
-    .address {
-        margin-top: -70px;
-        grid-column: 2/3;
-    }
-    
-    .email{
-        grid-column: 3/4;
-        grid-row: 1;
-    }
-    
-    .phone{
-        grid-column: 3/4;
-        margin-top: -70px;
-        
-    }
-
-    .map{
-        grid-column: 3/4;
-        margin-top: -50px;
-    }  */
 
 /* Discover page */
     #discover-grid{
         font-size: 1.2rem;
         max-width: 73rem;
         margin: auto;
+        margin-bottom: 20px;
     }
 
     #places img {
@@ -184,7 +146,8 @@
         display: grid;
         grid-template-columns: 1fr 1fr;
         max-width: 73rem;
-        margin: auto;      
+        margin: auto;
+        margin-bottom: 20px;
     }
 
     textarea{
@@ -211,12 +174,18 @@
 
     #benefits h1{
         text-align: center;
+        color: #2C3546;
     }
 
+    #benefits section{
+        border: solid 1px #2C3546;
+        background-color: #2C3546;
+        padding: .5rem 2%;
+    }
     #benefits section ul{
         display: flex;
         flex-direction: column;
-        gap: 12px;
+        /* gap: 12px; */
     }
 
     #benefits section ul li{

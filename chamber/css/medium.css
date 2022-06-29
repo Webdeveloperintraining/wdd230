@@ -1,4 +1,4 @@
-@media only screen and (min-width: 35rem) {
+@media only screen and (min-width: 34rem) {
     /* Main page */
     #head-logo {
         width:6rem;
@@ -113,7 +113,7 @@
         gap: 5px;
     }
 
-    .info3{
+    .info4{
         grid-column: 3/4;
         grid-row: 1/2;
         display: flex;
@@ -122,7 +122,7 @@
         align-items: center;
         text-align: center;
     }
-    .info4{
+    .info3{
         display: flex;
         flex-wrap: wrap;
         flex-direction: column;
