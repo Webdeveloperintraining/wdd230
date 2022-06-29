@@ -14,7 +14,7 @@ main{
     flex-direction:column;
     justify-content: center;
     align-content: center;
-    min-width:350px;
+    /* min-width:350px; */
     min-height: 270px;
     gap:20px;
 }
@@ -315,7 +315,7 @@ picture img {
 
   /*CSS for Join Page*/
 form fieldset {
-    /* margin: 2rem; */
+    margin: 2rem;
     border:1px solid #2C3546 ;
     border-radius: 10px;
     padding: .5rem 2%;
