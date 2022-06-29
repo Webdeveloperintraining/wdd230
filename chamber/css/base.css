@@ -5,12 +5,11 @@ header {
     margin-top:-8px;
     min-width:350px;
     align-content: center;
+    margin: auto;
 }
 
 main{
-    padding-left:15px;
-    padding-right:15px;
-    padding-bottom: 15px;
+    margin: 10px;
     display:grid;
     flex-direction:column;
     justify-content: center;
@@ -34,7 +33,7 @@ p,a {
     width:5rem;
 }
 
-#flexing {
+.header-flex {
     display: flex;
     align-items: center;
     justify-content: space-evenly;
@@ -54,6 +53,7 @@ p,a {
     display: flex;
     align-content: center;
     gap: 10px;
+    grid-column: 2/3;
 }
 
 button{
@@ -154,19 +154,6 @@ nav ul.open {display: block;}
     background-color: #FFD600;
 }
 
-/* .joinbutton {
-    bottom:1px;
-    right:.5rem;
-	position: absolute;
-    border: 1px solid black;
-    background:#2C3546;
-    font-size: 1.2rem;
-    padding:10px;
-}
-
-.joinbutton a:hover{
-    color: #FFD600;
-} */
 .event{
     grid-row: 3/4;
 }
@@ -262,12 +249,13 @@ nav ul.open {display: block;}
 }
 
 footer {
-    padding:20px;
+    padding:10px;
     background-color: #2C3546;
     text-align: center;
     margin-bottom: -8px;
     min-width:350px;
 }
+
 .foot-logo {
     margin: auto;
     width: 9rem;
@@ -280,8 +268,8 @@ footer p , a {
     }
     
 .true-footer {
-    border-top:1px solid  white;
-    padding:1rem;
+    border-top:1px solid white;
+    padding:.5rem;
 }
 
 p a:hover { color: #FFD600;}

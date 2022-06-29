@@ -11,8 +11,9 @@
     #flexing {
         display: flex;
         align-items: center;
-        justify-content: space-around;
+        /* justify-content: space-around; */
         padding: 10px;
+        gap:0px;
     }
     #icons{
         gap:25px;
@@ -35,7 +36,6 @@
 
     main {
         grid-template-columns:1fr 2fr 1fr ;
-        margin: auto;
     }
 
     #banner {
@@ -120,8 +120,11 @@
         display: block;
         margin: auto;
     }
-
-    #footer-flex {
+    .info{
+        justify-content: center;
+        gap: 25%;
+    }
+    /* #footer-flex {
         display: grid;
         grid-template-columns: 1fr 1fr 1fr;
         gap:10px;
@@ -159,7 +162,8 @@
     .map{
         grid-column: 3/4;
         margin-top: -50px;
-    } 
+    }  */
+
 /* Discover page */
     #discover-grid{
         font-size: 1.2rem;
