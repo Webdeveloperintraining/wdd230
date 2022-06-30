@@ -196,4 +196,13 @@ textarea{
     margin:0;
 }
 
+/* Contact page */
+#contact-menu{
+    display: flex;
+    flex-direction:row;
+    gap: 20px;
+    justify-content: center; 
+    margin: auto;
+}
+
 }

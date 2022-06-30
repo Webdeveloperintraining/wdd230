@@ -17,7 +17,6 @@ main{
     /* min-width:350px; */
     min-height: 270px;
     gap:20px;
-    
 }
 
 h1,h2,h3,h4,h5 {
@@ -349,7 +348,8 @@ picture img {
 
   /*CSS for Join Page*/
 form fieldset {
-    margin: 2rem;
+    margin-top: 20px;
+    margin-bottom: 20px;
     border:1px solid #2C3546 ;
     border-radius: 10px;
     padding: .5rem 2%;
@@ -377,7 +377,8 @@ form label.top, form div{
 }
 
 textarea{
-    width: 98%;
+    width: 95%;
+    /* margin: auto; */
 }
 
 form label.top input, form label.top select{
@@ -391,6 +392,10 @@ form label.top input, form label.top select{
     width:91%;
     background-color: rgba(255, 255, 255, 0.1);
     
+}
+
+form label {
+    font-family:'Roboto', sans-serif;
 }
 
 form label.member{
@@ -545,6 +550,15 @@ form label.top input:invalid{
 }
 
 /* Contact page*/
+#contact-menu{
+    display: flex;
+    flex-direction:column;
+    gap: 20px;
+    justify-content: center; 
+    align-content: center;
+    margin: auto;
+}
+
 #contact-info, #office{
     border:1px solid #2C3546;
     background-color: #2C3546;
@@ -552,12 +566,59 @@ form label.top input:invalid{
     text-align: center;
 }
 
-#contact-info{
-    display: flex;
-    justify-content: center;
-    flex-direction: column;
-}
-
 #office{
     display: grid;
+    justify-content: center;
+    align-content: center;
+    gap: 10px;
+    grid-template-areas:". h h h h ."
+                        "a a b b c c"
+                        "a a b b c c"
+                        "d d e e f f"
+                        "d d e e f f"
+                        ". . g g . ."
+                        ". . g g . .";
+}
+
+#office h1{
+    grid-area:h;
+}
+#day1{
+grid-area:a;
+}
+#day2{
+   grid-area:b; 
+}
+#day3{
+grid-area:c;    
+}
+#day4{
+grid-area:d;    
+}
+#day5{
+grid-area:e;   
+}
+#day6{
+grid-area:f;    
+}
+#day7{
+ grid-area:g;   
+}
+
+form input#submit-contact{
+    text-align: center;
+    padding:15px;
+    width: 50%;
+    border: none;
+    color: white;
+    font-family:'Roboto', sans-serif;
+    background-color:#2C3546;
+    cursor: pointer;
+}
+form input#submit-contact:hover{
+    background-color: #45526b;
+}
+
+form textarea:invalid{
+    border: #FFD600 solid 2px;
 }
