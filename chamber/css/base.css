@@ -258,14 +258,14 @@ nav ul.open {display: block;}
 
 
 .spotlight1 img {
-    width:150px;
+    /* width:150px; */
     display: block;
     margin: auto;
 }
 
-.spotlight2 img {
+/* .spotlight2 img {
     width:150px;
-}
+} */
 
 .join {
     display: none;
@@ -483,9 +483,9 @@ form label.top input:invalid{
     margin-bottom: 16px;
 }
 
-/* .contacts img{
-    width:60%;
-} */
+.contacts img{
+    width:80%;
+}
 
 .buttons{
     display: flex;

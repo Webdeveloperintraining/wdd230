@@ -108,15 +108,15 @@
     }
 
     .spotlight1 img {
-        width:150px;
+        /* width:150px; */
     }
     
     .spotlight2 img {
-        width:100px;
+        /* width:100px; */
     }
 
     .spotlight3 img {
-        width:150px;
+        /* width:150px; */
         display: block;
         margin: auto;
     }
