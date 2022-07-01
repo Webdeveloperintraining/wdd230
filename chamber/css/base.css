@@ -483,9 +483,9 @@ form label.top input:invalid{
     margin-bottom: 16px;
 }
 
-.contacts img{
+/* .contacts img{
     width:60%;
-}
+} */
 
 .buttons{
     display: flex;
