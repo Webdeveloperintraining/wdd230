@@ -258,14 +258,14 @@ nav ul.open {display: block;}
 
 
 .spotlight1 img {
-    /* width:150px; */
+    width:150px;
     display: block;
     margin: auto;
 }
 
-/* .spotlight2 img {
+.spotlight2 img {
     width:150px;
-} */
+}
 
 .join {
     display: none;
