@@ -213,18 +213,20 @@ nav ul.open {display: block;}
     flex-direction: column;
     border: 1px solid black;
     padding: 20px;
-    align-content:center;
     justify-content:space-evenly;
+    align-content:center;
     gap: 1rem;
 }
 
 .main-s .spotlight1,.spotlight2,.spotlight3 {
     border: 1px solid white;
     text-align: center;
+    align-items:center;
 }
 
 .spotlight1,.spotlight2,.spotlight3 {
     padding: 1rem;
+    align-content:center;
 }
 
 .spotlight1 {
@@ -286,6 +288,10 @@ p a:hover { color: #FFD600;}
 
 #places {
     display: none;
+}
+
+#demographics h1{
+    text-align: center;
 }
 
 #demographics{
