@@ -37,7 +37,7 @@
 // localStorage.setItem("visits-number", lastVisit)
 
 
-const lastDisplay = document.querySelector(".day-since");
+const lastDisplay = document.querySelector(".hours-since");
 const visitsDisplay = document.querySelector(".visits");
 
 let numVisits = Number(window.localStorage.getItem("visits-ls"));
@@ -48,6 +48,7 @@ if (numVisits !== 0) {
 } else {
 	visitsDisplay.textContent = "This is your first visit!";
 }
+
 if (lastVisit !== 0) {
 	lastDisplay.textContent =Math.trunc((Date.now() - lastVisit)/36e5);
 } else {
