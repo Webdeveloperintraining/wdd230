@@ -176,6 +176,7 @@ textarea{
 }
 
 /* Directory page */
+
 .list {
     display: grid;
     grid-template-columns:minmax(320px, 1fr);
@@ -185,18 +186,43 @@ textarea{
 .buttons{
     display: flex;
     justify-content: end;
-    gap: 16px;
+    /* gap: 16px; */
     padding-right: 20px;
-    margin:0;
+    /* margin:0; */
 }
 
 /* Contact page */
+
+#office{
+    grid-template-areas:". h h h h ."
+                        "a a b b c c"
+                        "a a b b c c"
+                        "d d e e f f"
+                        "d d e e f f"
+                        ". . g g . ."
+                        ". . g g . .";
+}
+
 #contact-menu{
-    display: flex;
-    flex-direction:row;
-    gap: 20px;
+    display: grid;
+    /* flex-direction:column; */
+    /* gap: 20px;
     justify-content: center; 
-    margin: auto;
+    align-content: center;
+    margin: auto; */
+}
+
+#contact-info{
+    grid-column: 1/2;
+}
+
+#office{
+    grid-area: 2/3/1/2;
+}
+
+#form2{
+    grid-column: 1/3;
+
 }
 
 }

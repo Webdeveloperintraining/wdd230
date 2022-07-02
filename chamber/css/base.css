@@ -233,7 +233,6 @@ nav ul.open {display: block;}
     justify-content: space-evenly;
 }
 
-
 .spotlight1 img {
     width:150px;
     display: block;
@@ -358,7 +357,6 @@ form label.top, form div{
     display: block;
     padding: .5rem;
     color:#2C3546;
-    
 }
 
 textarea{
@@ -381,6 +379,7 @@ form label.top input, form label.top select{
 
 form label {
     font-family:'Roboto', sans-serif;
+    cursor: pointer;
 }
 
 form label.member{
@@ -449,12 +448,14 @@ form label.top input:invalid{
     text-align: center;
     gap: 20px;
 }
+#directory-grid h1{
+    margin-bottom:0px;
+}
 
 #directory-name{
     color: #2C3546;
     text-align: center;
 }
-
 
 .contacts {
     display: flex;
@@ -469,19 +470,22 @@ form label.top input:invalid{
     border:1px solid #2C3546;
     background-color: #2C3546;
     /* margin: 1rem; */
-    font-size: 1.2rem;  
+    font-size: 1.2rem;
+    overflow-wrap: break-word;
+    /* word-break: break-all; */
+
 } 
 
-.contacts section:nth-child(1){
+/* .contacts section:nth-child(1){
     margin-top: 16px;
 }
 
 .contacts section:nth-child(9){
     margin-bottom: 16px;
-}
+} */
 
 .contacts img{
-    width:80%;
+    width:50%;
 }
 
 .buttons{
@@ -554,13 +558,15 @@ form label.top input:invalid{
     gap: 20px;
     justify-content: center; 
     align-content: center;
-    margin: auto;
+    margin-top: 20px;
+    margin-left:0px;
+    margin-right: 0px;
 }
 
 #contact-info, #office{
     border:1px solid #2C3546;
     background-color: #2C3546;
-    padding: 1rem;
+    padding:10px;
     text-align: center;
 }
 
@@ -569,13 +575,16 @@ form label.top input:invalid{
     justify-content: center;
     align-content: center;
     gap: 10px;
-    grid-template-areas:". h h h h ."
-                        "a a b b c c"
-                        "a a b b c c"
-                        "d d e e f f"
-                        "d d e e f f"
-                        ". . g g . ."
-                        ". . g g . .";
+    grid-template-areas:"h h h h"
+                        "a a b b"
+                        "a a b b"
+                        "c c d d"
+                        "c c d d"
+                        "e e f f"
+                        "e e f f"
+                        ". g g ."
+                        ". g g .";
+
 }
 
 #office h1{
