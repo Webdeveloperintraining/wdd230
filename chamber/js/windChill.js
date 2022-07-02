@@ -36,25 +36,33 @@ function Chill(){
     const chillFormula=35.74+(0.6215*temperature)-(35.75*wSpeed**0.16)+(0.4275*temperature*wSpeed**0.16);
     if (temperature > 50 || wSpeed < 3.0){
         windChill.innerHTML="N/A";
-        //windChill.innerHTML=`<p>${chillFormula.toFixed(2)} °F</p>`;
+        return "N/A"
     } else{
-        //windChill.innerHTML="<p>N/A</p>";
         windChill.innerHTML=`${chillFormula.toFixed(2)} °F`;
-    };
+        return chillFormula
+    }
+    
 };
 
+//Buttons that Changes Celsius or Farenheit
+function turnCelsius(){
+    const celsius= (temperature)=>(temperature-32)*5/9;
+    temp.innerHTML=`<p>${celsius(temperature).toFixed(0)} &deg;C</p>`;
+    const kmH=wSpeed*1.60934;
+    wind.innerHTML=`${kmH.toFixed(2)} kMH`;
+    let twchill=Chill();
+    if(twchill==="N/A"){
+        windChill.innerHTML="N/A";
+    }else{
+        windChill.innerHTML=`${celsius(twchill).toFixed(2)} &deg;C`;
+    }
+};
 
+function turnFarenheit (){
+    temp.innerHTML=`<p>${temperature.toFixed(0)} &deg;F</p>`;
+    wind.innerHTML=`${wSpeed.toFixed(2)} mPH`;
+    Chill()
+};
 
-
-//Temperature and Wind Speed Values before API
-// var temperature=parseInt(50);
-// var wSpeed=parseFloat(3.0);
-
-
-// Wind speed Formulas
-// const mph=wSpeed/1.60934
-// const kmH=wSpeed*1.60934
-
-//Temperature Conversion Formulas
-// const toCelsius=(temperature*9/5)+32;
-// const toFarenheit=(temperature-32)*5/9;
+document.querySelector("#celBtn").addEventListener("click", turnCelsius)
+document.querySelector("#farBtn").addEventListener("click", turnFarenheit)

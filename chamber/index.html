@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
-    
+    <title>River Home Page</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Archivo:wght@500&family=Roboto&display=swap" rel="stylesheet">
@@ -14,7 +14,8 @@
     <link rel="stylesheet" href="../chamber/css/medium.css">
     <link rel="stylesheet" href="../chamber/css/large.css">
     <link rel="shortcut icon" href="./images/homepage/riversfavicon.ico">
-    <title>Chamber Home Page Build</title>
+    <script src="./js/banner.js" defer></script>
+    
 </head>
 <body>
     <header>
@@ -60,7 +61,7 @@
            <div class="event">
                <h3> Community service </h3>
                <h4>Great Kibble</h4>
-               <p>This Saturday will be another edition of the great kibble, which seeks to support dogs and cats that have been rescued from street conditions, abuse and neglect and are in shelters or temporary shelters in the process of rehabilitation to be put up for adoption. <a target="_blank" href="https://www.elsoldetijuana.com.mx/local/realizaran-croqueton-para-apoyar-a-albergues-de-perros-y-gatos-rescatados-de-condicion-de-calle-8518448.html"> <u> more info ...</u> </a></p>
+               <p>This Saturday will be another edition of the great kibble, which seeks to support dogs and cats that have been rescued from street conditions, abuse and neglect and are in shelters or temporary shelters in the process of rehabilitation to be put up for adoption. <a target="_blank" href="https://www.elsoldetijuana.com.mx/local/realizaran-croqueton-para-apoyar-a-albergues-de-perros-y-gatos-rescatados-de-condicion-de-calle-8518448.html"> more info ... </a></p>
            </div>
 
            <div class="weather">
@@ -71,8 +72,12 @@
                     <span id="w_description"></span>
                 </div>
                 <div class="weather-grid">
-                    <p>Wind<br>Speed:<br><span id="wind"></span></p>
-                    <p>Wind<br>Chill:<br><span id="wind-chill"></span></p>
+                    <p>Wind Speed:<br><span id="wind"></span></p>
+                    <p>Wind Chill:<br><span id="wind-chill"></span></p>
+                </div>
+                <div id="weatherBtn">
+                    <button id="celBtn"><span>&deg;C</span>
+                    <button id="farBtn"><span>&deg;F</span>
                 </div>
            </div>
 
@@ -116,7 +121,6 @@
     </footer>
     <script src="./js/dates.js"></script>
     <script src="./js/hamburguer.js"></script>
-    <script src="./js/banner.js"></script>
     <script src="./js/windChill.js"></script>
     <script src="./js/spotlight.js"></script>
 </body>

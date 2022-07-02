@@ -82,6 +82,7 @@
         background:goldenrod;
         text-decoration: none;
         border-radius: 15px;
+        color:white;
         padding:15px;
     }
     
@@ -154,11 +155,11 @@
 #places img {
 display: block;
 margin: auto;
-width: 85%;
+width: 100%;
 object-fit:cover;
 }
 
-#places picture img:hover {box-shadow: 0 0 50px #FFD600;}
+#places img:hover {box-shadow: 0 0 50px #FFD600;}
 
 /* Join page */
 

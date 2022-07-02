@@ -36,6 +36,11 @@ p,a {
     color:white;
 }
 
+a:hover {
+    font-family:'Roboto', sans-serif;
+    color:#FFD600;
+}
+
 #head-logo {
     width:5rem;
 }
@@ -51,30 +56,39 @@ p,a {
 .logo-nf{
     display: flex;
     /* flex-wrap: wrap; */
-    align-content: center;
+    /* align-content: center; */
     justify-content: center;
+    align-items: center;
     gap: 10px;
 }
 
 #icons{
     display: flex;
-    align-content: center;
+    /* align-content: center; */
+    align-items: center;
     text-align: center;
     gap: 10px;
     /* grid-column: 2/3; */
 }
 
 button{
-    width:2rem;
-    height:2rem;
+    width:2.1rem;
+    height:2.1rem;
+    margin-top: -2px;
+    align-items: center;
     text-align: center;
     cursor: pointer;
+    /* background-color: white;
+    color: #2C3546; */
     }
+/* button:hover{
+    background-color: gainsboro;
+} */
 
 button p{
     margin: auto;    
     text-align: center;
-    align-items: center;
+    /* align-items: center; */
     }
 
 #facebook, #linkedin{
@@ -110,7 +124,7 @@ nav ul li a {
 
 nav ul li.active a { background-color: goldenrod; color: white;}
 
-nav ul li a:hover { background-color: #FFD600;}
+nav ul li a:hover { background-color: #FFD600; color: #2C3546;}
 
 nav ul{display: none;}
 nav ul.open {display: block;}
@@ -165,6 +179,8 @@ nav ul.open {display: block;}
     padding:10px;
     bottom:40px;
     right:1rem;
+    color: white;
+    cursor: pointer;
 }
 
 .hero h2 a:hover{
@@ -192,7 +208,23 @@ nav ul.open {display: block;}
     justify-content: space-evenly;
     align-content: center;
     border-top:solid 1px white ;
-    margin: 20px;
+    overflow-wrap: break-word;
+    gap: 10px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+#weatherBtn{
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    gap:20px;
+    padding: 20px;
+}
+
+#weatherBtn button{
+    width: 2.5rem;
+    height: 2.5rem;
 }
 
 .weather img {
@@ -215,7 +247,7 @@ nav ul.open {display: block;}
     padding: 20px;
     justify-content:space-evenly;
     align-content:center;
-    gap: 1rem;
+    gap: 20px;
 }
 
 .main-s .spotlight1,.spotlight2,.spotlight3 {
@@ -224,21 +256,25 @@ nav ul.open {display: block;}
     align-items:center;
 }
 
-.spotlight1,.spotlight2,.spotlight3 {
-    padding: 1rem;
-    align-content:center;
-}
-
-.spotlight1 {
+.spotlight1,.spotlight2{
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
+    padding: 1rem;
+    align-content:center;
+    overflow-wrap: break-word;
 }
+
+/* .spotlight1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+} */
 
 .spotlight1 img {
     width:150px;
-    display: block;
-    margin: auto;
+    /* display: block;
+    margin: auto; */
 }
 
 .spotlight2 img {
@@ -331,7 +367,7 @@ picture img {
   /*CSS for Join Page*/
   #form-grid{
     display: flex;
-    flex-direction:column;
+    flex-direction:column-reverse;
     justify-content: center;
     align-content: center;
     text-align: justify;
@@ -416,7 +452,41 @@ form input#chamber-submit:hover{
 }
 
 #benefits{
-    display: none;
+    display: flex;
+    flex-direction: column;
+    justify-content:center ;
+    align-content: center;
+}
+
+#benefits h1{
+    text-align: center;
+    color: #2C3546;
+}
+
+#benefits h2{
+    color: #FFD600;
+}
+
+#benefits section:nth-child(2){
+    margin-top:10px;
+}
+
+#benefits section{
+    background-color: #2C3546;
+    padding: 10px;
+    
+}
+
+#benefits section ul{
+    display: flex;
+    flex-direction: column;
+    gap:10px;
+    color: white;
+    font-family:'Roboto', sans-serif;
+    max-width:90%;
+    overflow-wrap: break-word;
+    text-align: left;
+    word-break: normal;
 }
 
 #thanks{
@@ -478,6 +548,7 @@ form label.top input:invalid{
     /* margin: 1rem; */
     font-size: 1.2rem;
     overflow-wrap: break-word;
+    word-break: normal;
     /* word-break: break-all; */
 
 } 

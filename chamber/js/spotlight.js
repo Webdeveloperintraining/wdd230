@@ -30,6 +30,7 @@ function displayContent(company,spotlight){
     core.innerHTML=`${company.coreBusiness}`;
     logo.setAttribute("src",company.icon);
     logo.setAttribute("alt",`${company.name}'s logo`);
+    logo.setAttribute('loading', 'lazy');
     section.appendChild(namespot);
     section.appendChild(logo);
     section.appendChild(core);
