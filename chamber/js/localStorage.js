@@ -1,5 +1,5 @@
-// const todayDisplay = document.querySelector(".today");
-// const visitsDisplay = document.querySelector(".visits");
+const lastDisplay = document.querySelector(".day-since");
+const visitsDisplay = document.querySelector(".visits");
 
 // let numVisits = Number(window.localStorage.getItem("visits-ls"));
 
