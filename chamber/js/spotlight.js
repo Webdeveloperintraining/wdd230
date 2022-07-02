@@ -20,17 +20,20 @@ function displayContent(company,spotlight){
     let email=document.createElement("p");
     let website=document.createElement("p");
     let core=document.createElement("p");
+    let founded=document.createElement("p");
     let logo=document.createElement("img");
 
     namespot.innerHTML=company.name;
     phone.innerHTML=`${company.phone}`;
+    founded.innerHTML=`Founded in: ${company.founded}`
     website.innerHTML=`<a href="${company.website}" target="_blank">${company.website}</a>`;
     core.innerHTML=`${company.coreBusiness}`;
     logo.setAttribute("src",company.icon);
     logo.setAttribute("alt",`${company.name}'s logo`);
     section.appendChild(namespot);
     section.appendChild(logo);
-    section.appendChild(core)
+    section.appendChild(core);
+    section.appendChild(founded);
     section.appendChild(phone);
     section.appendChild(email);
     section.appendChild(website);

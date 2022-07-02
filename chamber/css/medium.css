@@ -1,4 +1,4 @@
-@media only screen and (min-width: 45rem) {
+@media only screen and (min-width: 35rem) {
     /* Main page */
     #head-logo {
         width:6rem;
@@ -22,14 +22,14 @@
 
     #banner{
         font-size:16px;
-        padding:5px;
+        padding:6px;
         grid-column:1/4;
     }
 
-    .joinbutton {
+    /* .joinbutton {
         bottom:1px;
         right:.5rem;
-    }
+    } */
     
 
     .hero,.news,.join ,.main-s {
@@ -41,13 +41,13 @@
         grid-row:3/4;
     }
 
-    .logo-nf{
+    /* .logo-nf{
         display: flex;
         align-items: center;
         justify-content: center;
         flex-wrap: nowrap;
-        gap: 10px;
-    }
+        gap: 20px;
+    } */
     
     .hero{
         grid-row: 2/3;
@@ -77,9 +77,10 @@
     
     .join h2 a{
         display: block;
-        border: 1px solid black;
+        border: 1px solid #2C3546;
         text-align: center;
         background:goldenrod;
+        text-decoration: none;
         border-radius: 15px;
         padding:15px;
     }
@@ -99,8 +100,8 @@
         flex-direction: row;
         justify-content:space-around;
         align-items: center;
-
     }
+
     .info2{
         display: grid;
         align-items: center;
@@ -129,7 +130,7 @@
 /* Discover page */
 
 #discover-grid{
-    display: grid;
+    /* display: grid; */
     /* flex-direction: row;
     justify-content: space-evenly; */
     grid-template-columns:50% 50%;
@@ -146,7 +147,7 @@
 
 #places section{
     background-color:#2C3546;
-    padding: 1rem;
+    padding: 10px;
     align-items: center;
 }
 
@@ -161,14 +162,6 @@ object-fit:cover;
 
 /* Join page */
 
-#form-grid{
-    display: flex;
-    flex-direction:column;
-    justify-content: center;
-    align-content: center;
-    text-align: justify;
-}
-
 form label.top input, form label.top select{
     width:96.49%;
     }
@@ -181,6 +174,7 @@ textarea{
     display: grid;
     grid-template-columns: repeat(2, minmax(320px, 1fr));
 }
+
 /* Directory page */
 .list {
     display: grid;
