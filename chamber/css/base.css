@@ -39,7 +39,7 @@ p,a {
 }
 
 a:hover {
-    font-family:'Roboto', sans-serif;
+    /* font-family:'Roboto', sans-serif; */
     text-decoration: underline;
     color:#FFD600;
 }
@@ -238,7 +238,7 @@ nav ul.open {display: block;}
 
 .weather img {
     width:25%;
-    border: 1px solid white;
+    /* border: 1px solid white; */
     background-color: rgb(204, 201, 201);
 }
 
@@ -330,6 +330,8 @@ p a:hover { color: #FFD600;}
 #discover-grid{
     display: grid;
     gap: 20px;
+    align-content: center;
+    justify-content:center ;
     /* margin:20px; */
 }
 
@@ -353,6 +355,19 @@ p a:hover { color: #FFD600;}
     background-color:#2C3546;
     padding: 10px;
     height: 100%;
+}
+
+#demographics section:nth-child(4) ul {
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#demographics section:nth-child(4) li {
+    font-family:'Roboto', sans-serif;
+    color: white;
+    padding:10px;
 }
 
 #demographics img {
@@ -590,9 +605,9 @@ form label.top input:invalid{
     margin-bottom: 16px;
 } */
 
-.contacts img{
+/* .contacts img{
     width:50%;
-}
+} */
 
 .buttons{
     display: flex;
