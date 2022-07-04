@@ -33,11 +33,13 @@ h1,h2,h3,h4,h5 {
 
 p,a {
     font-family:'Roboto', sans-serif;
+    text-decoration: none;
     color:white;
 }
 
 a:hover {
     font-family:'Roboto', sans-serif;
+    text-decoration: underline;
     color:#FFD600;
 }
 
@@ -124,7 +126,7 @@ nav ul li a {
 
 nav ul li.active a { background-color: goldenrod; color: white;}
 
-nav ul li a:hover { background-color: #FFD600; color: #2C3546;}
+nav ul li a:hover { background-color: #FFD600; color: #2C3546;text-decoration: none;}
 
 nav ul{display: none;}
 nav ul.open {display: block;}
@@ -157,7 +159,7 @@ nav ul.open {display: block;}
     background-color:black;
     color: white;
     text-align: center;
-    margin-bottom:-12px;
+    margin-bottom:-19px;
 }
 
 #welcome-title {
@@ -362,6 +364,11 @@ picture img[data-src] {
 picture img {
     filter: blur(0em);
     transition: filter 0.5s;
+  }
+
+  #visit-section{
+    display: flex;
+    flex-direction: column;
   }
 
   /*CSS for Join Page*/

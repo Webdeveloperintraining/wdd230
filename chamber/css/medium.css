@@ -206,6 +206,7 @@ textarea{
 
 #contact-menu{
     display: grid;
+
     /* flex-direction:column; */
     /* gap: 20px;
     justify-content: center; 
@@ -215,6 +216,7 @@ textarea{
 
 #contact-info{
     grid-column: 1/2;
+    min-width: 12em;
 }
 
 #office{
