@@ -1,6 +1,6 @@
 //Last modified Date as value
 let dv= document.lastModified;
-document.querySelector("#full-datev").value=dv;
+document.querySelector(".full-datev").value=dv;
 
 //This function validates if the Business position was submitted properly
 function validate(){

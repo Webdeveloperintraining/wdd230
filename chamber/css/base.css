@@ -9,19 +9,16 @@ header {
 }
 
 main{
-    /* margin-top:10px ; */
     margin-left: 20px; 
     margin-right: 20px; 
     margin-bottom: 20px; 
 }
 
 #home-grid{
-    /* margin: 20px; */
     display:grid;
     flex-direction:column;
     justify-content: center;
     align-content: center;
-    /* min-width:350px; */
     min-height: 270px;
     gap:20px;
 }
@@ -39,7 +36,6 @@ p,a {
 }
 
 a:hover {
-    /* font-family:'Roboto', sans-serif; */
     text-decoration: underline;
     color:#FFD600;
 }
@@ -53,14 +49,10 @@ a:hover {
     align-items: center;
     justify-content: space-evenly;
     padding: 10px;
-    
-    /* gap: 20px; */
 }
 
 .logo-nf{
     display: flex;
-    /* flex-wrap: wrap; */
-    /* align-content: center; */
     justify-content: center;
     align-items: center;
     gap: 10px;
@@ -72,11 +64,9 @@ a:hover {
 
 #icons{
     display: flex;
-    /* align-content: center; */
     align-items: center;
     text-align: center;
     gap: 10px;
-    /* grid-column: 2/3; */
 }
 
 button{
@@ -86,17 +76,11 @@ button{
     align-items: center;
     text-align: center;
     cursor: pointer;
-    /* background-color: white;
-    color: #2C3546; */
     }
-/* button:hover{
-    background-color: gainsboro;
-} */
 
 button p{
     margin: auto;    
     text-align: center;
-    /* align-items: center; */
     }
 
 #facebook, #linkedin{
@@ -105,7 +89,6 @@ button p{
 
 #date_decoration {
     padding: 15px;
-    /* line-height: 20px; */
     background-color: white;
     text-align: center;
     color:#2C3546;
@@ -116,14 +99,12 @@ nav ul {
     margin: 0;
     list-style-type: none;
     background-color: white;
-    /* margin-bottom: 20px; */
 }
 
 nav ul li a {
     text-align: center;
     display: block;
     text-decoration: none;
-    /* font-family:'Roboto', sans-serif; */
     padding:.8rem 2vw;
     color:#2C3546;
     border: 1px solid #2C3546;
@@ -137,13 +118,12 @@ nav ul li a:hover { background-color: #FFD600; color: #2C3546;text-decoration: n
 nav ul{display: none;}
 nav ul.open {display: block;}
 
-#hamburguerBtn span:nth-child(1) {display: block;}
-#hamburguerBtn span:nth-child(2) {display: none;}
-#hamburguerBtn.open span:nth-child(1) {display: none;}
-#hamburguerBtn.open span:nth-child(2) {display: block;}
+.hamburguerBtn span:nth-child(1) {display: block;}
+.hamburguerBtn span:nth-child(2) {display: none;}
+.hamburguerBtn.open span:nth-child(1) {display: none;}
+.hamburguerBtn.open span:nth-child(2) {display: block;}
 
 .hero picture {
-    /* margin-top:20px; */
     position: relative;
     text-align:center;
 }
@@ -203,7 +183,6 @@ nav ul.open {display: block;}
 .event,.weather,.news,.main-s,.join{
     border: 1px solid #2C3546;
     background-color:#2C3546;
-    /* justify-content: center; */
 }
 .weather {
     text-transform: capitalize;
@@ -213,7 +192,6 @@ nav ul.open {display: block;}
 
 .weather-grid{
     display: flex;
-    /* grid-template-columns: 50% 50%; */
     justify-content: space-evenly;
     align-content: center;
     border-top:solid 1px white ;
@@ -238,8 +216,7 @@ nav ul.open {display: block;}
 
 .weather img {
     width:25%;
-    /* border: 1px solid white; */
-    background-color: rgb(204, 201, 201);
+    background-color: rgb(231, 231, 231);
 }
 
 .news,.event, .join{
@@ -273,19 +250,10 @@ nav ul.open {display: block;}
     justify-content: space-evenly;
     padding: 1rem;
     align-content:center;
-    /* overflow-wrap: break-word; */
 }
-
-/* .spotlight1 {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-evenly;
-} */
 
 .spotlight1 img {
     width:150px;
-    /* display: block;
-    margin: auto; */
 }
 
 .spotlight2 img {
@@ -308,16 +276,14 @@ footer {
     min-width:350px;
 }
 
+footer h3{
+    text-align: left;
+}
+
 .foot-logo {
     margin: auto;
     width: 9rem;
 }
-
-/* footer p , a {
-    text-decoration: none;
-    font-family:'Roboto', sans-serif;
-    color: white;
-    } */
     
 .true-footer {
     border-top:1px solid white;
@@ -332,7 +298,6 @@ p a:hover { color: #FFD600;}
     gap: 20px;
     align-content: center;
     justify-content:center;
-    /* margin:20px; */
 }
 
 #places {
@@ -414,7 +379,6 @@ picture img {
     justify-content: center;
     align-content: center;
     margin-top: 20px;
-    /* text-align: justify; */
     gap: 20px;
 }
 
@@ -447,7 +411,6 @@ form label.top, form div{
 
 textarea{
     width: 95%;
-    /* margin: auto; */
 }
 
 form label.top input, form label.top select{
@@ -474,7 +437,7 @@ form label.member{
     color:#2C3546;
 }
 
-#centerBTN{
+.centerBTN{
     display: flex;
     justify-content:center;
     align-content: center;
@@ -539,7 +502,7 @@ form input#chamber-submit:hover{
     font-size: 1rem;
 }
 
-#thanks{
+.thanks{
     display: flex;
     margin-top:2.5rem;
     margin-bottom: 2.5rem;
@@ -553,12 +516,12 @@ form label.top input:invalid{
     border: #FFD600 solid 2px;
 }
 
-#thanks h1{
+.thanks h1{
     color: #2C3546;
     text-align: center;
 }
 
-#thanks p{
+.thanks p{
     color: #2C3546;
     text-align: center;
     font-size: 1.5rem;
@@ -595,25 +558,10 @@ form label.top input:invalid{
     padding:10px;
     border:1px solid #2C3546;
     background-color: #2C3546;
-    /* margin: 1rem; */
     font-size: 1.2rem;
     overflow-wrap: break-word;
     word-break: normal;
-    /* word-break: break-all; */
-
 } 
-
-/* .contacts section:nth-child(1){
-    margin-top: 16px;
-}
-
-.contacts section:nth-child(9){
-    margin-bottom: 16px;
-} */
-
-/* .contacts img{
-    width:50%;
-} */
 
 .buttons{
     display: flex;
