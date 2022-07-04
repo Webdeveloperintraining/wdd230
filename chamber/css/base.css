@@ -331,7 +331,7 @@ p a:hover { color: #FFD600;}
     display: grid;
     gap: 20px;
     align-content: center;
-    justify-content:center ;
+    justify-content:center;
     /* margin:20px; */
 }
 
@@ -363,12 +363,18 @@ p a:hover { color: #FFD600;}
     justify-content: center;
     align-items: center;
 }
-
 #demographics section:nth-child(4) li {
     font-family:'Roboto', sans-serif;
     color: white;
     padding:10px;
 }
+#places img {
+    display: block;
+    margin: auto;
+    width: 100%;
+    object-fit:cover;
+    width: auto;
+}    
 
 #demographics img {
     display: block;
@@ -691,7 +697,7 @@ form label.top input:invalid{
     text-align: center;
 }
 
-#office{
+#office{   
     display: grid;
     justify-content: center;
     align-content: center;

@@ -1,4 +1,4 @@
-@media only screen and (min-width: 62rem) {
+@media only screen and (min-width: 70rem) {
     /* Main page */
     header button {
         display: none;
@@ -159,14 +159,10 @@
         margin: auto; */
         /* margin-bottom: 20px; */
     }
-/* 
-    #places img {
-        width: 80%;
-    }
 
     #demographics img {
-        width: 80%;
-    } */
+        width:auto;
+    }
 
 /* Join page */
     #form-grid{
