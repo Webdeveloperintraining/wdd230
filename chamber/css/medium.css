@@ -3,10 +3,14 @@
     #head-logo {
         width:6rem;
     }
-
-    header h3{
+    main{
+        font-size: 1.1rem;
+    }
+    
+    header footer, h3{
         font-size: 1.5rem;
     }
+
     #head-logo {
         width:8rem;
     }
@@ -14,6 +18,14 @@
         width: 2.5rem;
         height:2.5rem;
         
+    }
+
+    nav ul li a {
+        font-size: 1.1rem;
+    }
+
+    #date_decoration{
+        font-size: 1.1rem;
     }
     
     #facebook, #linkedin{
@@ -92,6 +104,10 @@
         grid-row: 4/5;
         grid-template-columns:50% 50%;
         
+    }
+
+    footer h3{
+        text-align: left;
     }
     
     .info{

@@ -216,7 +216,7 @@ nav ul.open {display: block;}
 
 .weather img {
     width:25%;
-    background-color: rgb(231, 231, 231);
+    background-color: rgb(151, 151, 151);
 }
 
 .news,.event, .join{
@@ -248,7 +248,7 @@ nav ul.open {display: block;}
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
-    padding: 1rem;
+    padding: 10px;
     align-content:center;
 }
 
@@ -277,7 +277,7 @@ footer {
 }
 
 footer h3{
-    text-align: left;
+    text-align: center;
 }
 
 .foot-logo {

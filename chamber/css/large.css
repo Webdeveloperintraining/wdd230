@@ -5,7 +5,7 @@
     }
 
     #home-grid{
-     font-size: 1.1rem;
+     font-size: 1.2rem;
     }
     nav ul li a {
         width:10rem;
@@ -13,6 +13,7 @@
         border:none;
         border-right: 1px solid rgba(0,0,0,0.3);
         border-left: 1px solid rgba(0,0,0,0.3);
+        font-size: 1.2rem;
     }
     nav ul.primary-nav{
         display:flex;
@@ -22,10 +23,14 @@
         justify-content: center;
     }
 
+    #date_decoration{
+        font-size: 1.2rem;
+    }
+
     #home-grid {
         grid-template-columns:1fr 2fr 1fr ;
         margin: auto;
-        max-width:95%;
+        max-width:90%;
     }
 
     #banner {
@@ -99,7 +104,7 @@
         display: flex;
         flex-direction: column;
         justify-content: space-evenly;
-        padding: 1rem;
+        padding: 10px;
         align-content:center;
         overflow-wrap: break-word;
     }
@@ -115,7 +120,7 @@
 
 /* Discover page */
     #discover-grid{
-        font-size: 1.1rem;
+        font-size: 1.2rem;
         max-width: 80rem;
         margin: auto;
         max-width:80%;
@@ -131,6 +136,7 @@
         grid-template-columns: 50% 50%;
         justify-content:center;
         align-content: center;
+        font-size: 1.2rem;
         max-width: 73rem; 
         margin: auto; 
     }
@@ -140,6 +146,9 @@
         }
 
 /*Directory Page */
+    #directory-grid{    
+        font-size: 1.2rem;
+    }
     .contacts img{
         width:inherit;
     }
@@ -174,6 +183,7 @@
     align-content: center;
     max-width: 73rem; 
     margin: auto;
+    font-size: 1.2rem;
 }
 
 
