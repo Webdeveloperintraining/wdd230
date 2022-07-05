@@ -20,11 +20,11 @@ function companyInfo(company){
     let logo=document.createElement("img");
 
     name.innerHTML=company.name;
-    phone.innerHTML=`Phone:<br> ${company.phone}`;
-    address.innerHTML=`Address:<br> ${company.address}`;
-    core.innerHTML=`Core Business:<br> ${company.coreBusiness}`;
-    website.innerHTML=`Website:<br> <a href="${company.website}" target="_blank">${company.website}</a>`;
-    membership.innerHTML=`Membership level:<br> ${company.membershipLevel}`;
+    phone.innerHTML=`<b>Phone:</b><br> ${company.phone}`;
+    address.innerHTML=`<b>Address:</b><br> ${company.address}`;
+    core.innerHTML=`<b>Core Business:</b><br> ${company.coreBusiness}`;
+    website.innerHTML=`<b>Website:</b><br><a href="${company.website}" target="_blank">${company.website}</a>`;
+    membership.innerHTML=`<b>Membership level:</b><br> ${company.membershipLevel}`;
     logo.setAttribute("src",company.icon);
     logo.setAttribute("alt",`${company.name}'s logo`);
 

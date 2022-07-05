@@ -662,7 +662,7 @@ form label.top input:invalid{
 
 }
 
-#office h1{
+#office h2{
     grid-area:h;
 }
 #day1{
@@ -703,4 +703,8 @@ form input#submit-contact:hover{
 
 form textarea:invalid{
     border: #FFD600 solid 2px;
+}
+
+#form2 h2{
+    color: #2C3546;
 }
