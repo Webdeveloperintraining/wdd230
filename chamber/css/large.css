@@ -3,6 +3,9 @@
     header button {
         display: none;
     }
+    #head-logo {
+        width:inherit;
+    }    
 
     #home-grid{
      font-size: 1.2rem;

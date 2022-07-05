@@ -282,7 +282,7 @@ footer h3{
 
 .foot-logo {
     margin: auto;
-    width: 9rem;
+    width: inherit;
 }
     
 .true-footer {
