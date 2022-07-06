@@ -46,8 +46,7 @@
     .hero,.news,.join ,.main-s {
         grid-column: 1/4;
     }
-
-
+    
     .news {
         grid-row:3/4;
     }
@@ -92,6 +91,7 @@
         color:white;
         text-align: center;
         margin: auto;
+        text-shadow: 2px 2px 5px #2C3546;
         padding:15px;
     }
     

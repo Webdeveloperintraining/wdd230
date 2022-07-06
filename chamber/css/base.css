@@ -174,6 +174,7 @@ nav ul.open {display: block;}
     color: white;
     cursor: pointer;
     box-shadow: 2px 2px 5px #2C3546;
+    text-shadow: 2px 2px 5px #2C3546;
 }
 
 .hero h2 a:hover{
