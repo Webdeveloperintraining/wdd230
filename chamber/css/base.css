@@ -245,7 +245,7 @@ nav ul.open {display: block;}
     text-align: center;
     align-items:center;
     overflow-wrap: break-word;
-    word-break: break-all;
+    word-break: keep-all;
 }
 
 .spotlight1,.spotlight2{
