@@ -120,6 +120,9 @@
         justify-content: center;
         gap: 25%;
     }
+    footer{
+        font-size: 1.2rem;
+    }
 
 /* Discover page */
     #discover-grid{

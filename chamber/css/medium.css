@@ -3,7 +3,7 @@
     #head-logo {
         width:6rem;
     }
-    main{
+    main,footer{
         font-size: 1.1rem;
     }
     
@@ -143,7 +143,12 @@
         display: flex;
         flex-wrap: wrap;
         flex-direction: column;
+        justify-content: center;
         grid-column: 2/3;
+    }
+
+    .info3 h3{
+        margin-bottom: -5px;
     }
 
 /* Discover page */
@@ -202,7 +207,7 @@ form label.top input, form label.top select{
     }
 
 textarea{
-    width: 98.9%;
+    width: 95%;
 }
 
 .contacts{
