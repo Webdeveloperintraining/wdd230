@@ -108,7 +108,6 @@ nav ul li a {
     padding:.8rem 2vw;
     color:#2C3546;
     border: 1px solid #2C3546;
-    
 }
 
 nav ul li.active a { background-color: goldenrod; color: white;}
@@ -154,6 +153,7 @@ nav ul.open {display: block;}
     color: white;
     top:.1px;
     left:20px;
+    text-shadow: 2px 2px 5px #2C3546;
 }
 
 .hero h2 a{
@@ -170,6 +170,7 @@ nav ul.open {display: block;}
     overflow-wrap: break-word;
     color: white;
     cursor: pointer;
+    box-shadow: 2px 2px 5px #2C3546;
 }
 
 .hero h2 a:hover{
@@ -216,7 +217,7 @@ nav ul.open {display: block;}
 
 .weather img {
     width:25%;
-    /* background-color: rgb(151, 151, 151); */
+    background-color:rgba(255, 255, 255, 0.87);
 }
 
 .news,.event, .join{
