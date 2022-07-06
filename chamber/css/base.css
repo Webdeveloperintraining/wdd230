@@ -216,7 +216,7 @@ nav ul.open {display: block;}
 
 .weather img {
     width:25%;
-    background-color: rgb(151, 151, 151);
+    /* background-color: rgb(151, 151, 151); */
 }
 
 .news,.event, .join{
@@ -553,7 +553,9 @@ form label.top input:invalid{
     justify-content: center;
     gap: 20px;
 }
-
+.contacts img{
+    width: 85%;
+}
 .contacts section{
     padding:10px;
     border:1px solid #2C3546;

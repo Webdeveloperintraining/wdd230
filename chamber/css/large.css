@@ -152,9 +152,7 @@
     #directory-grid{    
         font-size: 1.2rem;
     }
-    .contacts img{
-        width:inherit;
-    }
+    
     .contacts{
         grid-template-columns: repeat(3, minmax(320px, 1fr));
         }

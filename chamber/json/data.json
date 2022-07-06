@@ -5,18 +5,18 @@
         "address":"C. Primera 1131, Zona Centro, 22000 Tijuana, B.C.",
         "phone":"(664)687-9100",
         "website":"https://jersey.com.mx/",
-        "icon":"https://webdeveloperintraining.github.io/wdd230/chamber/images/directory/jersey2.jpg",
+        "icon":"https://webdeveloperintraining.github.io/wdd230/chamber/images/directory/jersey2.webp",
         "membershipLevel":"Silver",
         "memberTime":2,
         "founded":1932,
-        "coreBusiness":"Sale and distribution of milk & dairy products"
+        "coreBusiness":"Sale and Distribution of Milk & Dairy Products"
         },
         {
         "name":"Famsa",
         "address":"Salvador, C. Salvador Díaz Mirón 4ta. No. 8050, Centro, 22000 Tijuana, B.C.",
         "phone":"(664)688-5202",
         "website":"https://www.famsa.com/",
-        "icon":"https://webdeveloperintraining.github.io/wdd230/chamber/images/directory/famsa2.png",
+        "icon":"https://webdeveloperintraining.github.io/wdd230/chamber/images/directory/famsa2.webp",
         "membershipLevel":"Gold",
         "memberTime":5,
         "founded":1970,
@@ -27,7 +27,7 @@
         "address":"Parque Industrial, 14 Boulevard el Refugio 24893, Paseos del Florido, 22244 Tijuana, B.C.",
         "phone":"(664)978-2222",
         "website":"http://facebook.com/tooginospizzeria",
-        "icon":"https://webdeveloperintraining.github.io/wdd230/chamber/images/directory/pizza2.png",
+        "icon":"https://webdeveloperintraining.github.io/wdd230/chamber/images/directory/pizza2.webp",
         "membershipLevel":"Gold",
         "memberTime":4,
         "founded":1932,
@@ -42,25 +42,25 @@
         "membershipLevel":"Silver",
         "memberTime":1,
         "founded":2005,
-        "coreBusiness":"Generic medical retailer"
+        "coreBusiness":"Generic Medical Retailer"
         },
         {
         "name":"Pollo Feliz",
         "address":"Blvd. Gustavo Diaz Ordaz 12850-1, Jardines de La Mesa, 22126 Tijuana, B.C.",
         "phone":"(664)626-1185",
         "website":"https://pollofelizslp.com/",
-        "icon":"https://webdeveloperintraining.github.io/wdd230/chamber/images/directory/pollo_feliz2.jpg",
+        "icon":"https://webdeveloperintraining.github.io/wdd230/chamber/images/directory/pollo_feliz2.webp",
         "membershipLevel":"Bronze",
         "memberTime":2,
         "founded":1975,
-        "coreBusiness":"Mexican-style chicken chain"
+        "coreBusiness":"Mexican-style Chicken Chain"
         },
         {
         "name":"El Florido",
         "address":"Blvd. Insurgentes #8904.El Florido 1era Sección(Plaza Gran Florido).Tijuana B.C.",
         "phone":"(664)625-9010",
         "website":"https://www.elflorido.com.mx/",
-        "icon":"https://webdeveloperintraining.github.io/wdd230/chamber/images/directory/florido2.png",
+        "icon":"https://webdeveloperintraining.github.io/wdd230/chamber/images/directory/florido2.webp",
         "membershipLevel":"Silver",
         "memberTime":3,
         "founded":1995,
@@ -71,18 +71,18 @@
         "address":"Boulevard Héroes de la Independencia Bulevar Josefa Ortiz de Dominguez esq, 22237 Tijuana, B.C.",
         "phone":"(664)645-3587",
         "website":"https://tecate.com/",
-        "icon":"https://webdeveloperintraining.github.io/wdd230/chamber/images/directory/tecate2.jpg",
+        "icon":"https://webdeveloperintraining.github.io/wdd230/chamber/images/directory/tecate2.webp",
         "membershipLevel":"Silver",
         "memberTime":4,
         "founded":1944,
-        "coreBusiness":"Beer sale and distribution"
+        "coreBusiness":"Beer Sale and Distribution"
         },
         {
         "name":"L.A Cetto",
         "address":"Av. Cañon Jhonson 2108, Hidalgo, 22130 Tijuana, B.C.",
         "phone":"(664)636-9200",
         "website":"https://web.lacetto.mx/wp/",
-        "icon":"https://webdeveloperintraining.github.io/wdd230/chamber/images/directory/la-cetto2.png",
+        "icon":"https://webdeveloperintraining.github.io/wdd230/chamber/images/directory/la-cetto2.webp",
         "membershipLevel":"Gold",
         "memberTime":4,
         "founded":1928,
@@ -97,7 +97,7 @@
         "membershipLevel":"Bronze",
         "memberTime":3,
         "founded":1941,
-        "coreBusiness":"Sale of coffee and Ice cream"
+        "coreBusiness":"Sale of Coffee and Ice Cream"
         }
     ]
 }

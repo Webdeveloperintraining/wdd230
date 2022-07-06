@@ -17,7 +17,6 @@ function displayContent(company,spotlight){
     let section=document.createElement("section");
     let namespot=document.createElement("h3");
     let phone=document.createElement("p");
-    let email=document.createElement("p");
     let website=document.createElement("p");
     let core=document.createElement("p");
     let founded=document.createElement("p");
@@ -36,7 +35,6 @@ function displayContent(company,spotlight){
     section.appendChild(core);
     section.appendChild(founded);
     section.appendChild(phone);
-    section.appendChild(email);
     section.appendChild(website);
     document.querySelector(spotlight).appendChild(section);
 };
