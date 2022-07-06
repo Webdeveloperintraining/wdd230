@@ -229,7 +229,6 @@ nav ul.open {display: block;}
     grid-row:6/7;
     display: flex;
     flex-direction: column;
-    border: 1px solid black;
     padding: 20px;
     justify-content:space-evenly;
     align-content:center;
